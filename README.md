@@ -4,6 +4,8 @@ This repository tracks my journey as I progress through the [Udacity Nanodegree 
 
 The course provides a comprehensive overview of how AI technologies can enhance and inform product management. It covers everything from creating datasets and building models, to measuring impact and continuously updating models.
 
+<br>
+
 ## Course Layout 📚 
 
 ### 🌟 Introduction to AI in Business
@@ -21,3 +23,7 @@ This module introduces us to the process of training and evaluating neural netwo
 ### 📈 Measuring Impact and Updating Models
 
 In the final part of the course, we learn how to improve machine learning models and AI products. We discuss strategies to mitigate bias and explore how to scale AI/ML products. The module also covers the importance of continuously updating models to ensure they remain effective and relevant.
+
+<br>
+
+## Course Projects 🏗️
