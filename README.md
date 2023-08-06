@@ -37,3 +37,6 @@ In the final part of the course, we learn how to improve machine learning models
 <br>
 
 ## Course Projects 🏗️
+
+### 🩻 Create a Medical Image Annotation Job
+
