@@ -22,6 +22,7 @@ In this part of the course, we explore how to build custom datasets, which form 
 - Data cleaning
 - Job design
 - CML
+- Result auditing
 
 
 ### 🧠 Building Models
