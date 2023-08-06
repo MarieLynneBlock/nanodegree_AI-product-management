@@ -18,7 +18,7 @@ In this part of the course, we explore how to build custom datasets, which form 
 
 #### skills:
 - Dataset building
-- Dataset annotation
+- Data fit & annotation
 - Data cleaning
 - CML
 
