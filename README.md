@@ -50,6 +50,11 @@ As such, this project is designed to test your ability to build a labeled datase
 ##### The Data
 [Chest x-ray dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), with labels removed. Every piece of data is a chest x-ray image. You may see images taken that are slightly different in size and taken under slightly different exposure times. A typical, labeled image is shown below:
 
+<div align="center">
+  <img src="images/annotated-chest-xray.png" alt="healthy annotated-chest-xray example" width="500">
+</div>
+
+
 TODO -->
 
 
