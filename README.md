@@ -23,7 +23,7 @@ In this part of the course, we explore how to build custom datasets, which form 
 - Job design
 - CML
 - Result auditing
-- Planning for failure
+- Planning for failure & longevity
 
 
 ### 🧠 Building Models
