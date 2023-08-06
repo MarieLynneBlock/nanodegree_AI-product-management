@@ -16,6 +16,13 @@ In this module, we delve into the fascinating world of AI and its applications i
 
 In this part of the course, we explore how to build custom datasets, which form the foundation of machine learning models. We also learn how to annotate datasets effectively to ensure accurate and meaningful results.
 
+#### skills:
+- Dataset building
+- Dataset annotation
+- Data cleaning
+- CML
+
+
 ### 🧠 Building Models
 
 This module introduces us to the process of training and evaluating neural networks, which are at the heart of many AI technologies. We also learn about automated machine learning tools that can simplify and accelerate the model-building process.
