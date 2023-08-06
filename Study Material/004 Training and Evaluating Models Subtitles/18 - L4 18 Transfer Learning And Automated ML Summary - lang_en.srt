@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:02,370
+That's the end of this section.
+
+2
+00:00:02,370 --> 00:00:04,890
+We saw how transfer learning can be used to
+
+3
+00:00:04,889 --> 00:00:07,679
+leverage knowledge from other models to speed up
+
+4
+00:00:07,679 --> 00:00:10,109
+the creation of new ones by copying a portion of
+
+5
+00:00:10,109 --> 00:00:13,439
+the first model and tuning it for a specific need.
+
+6
+00:00:13,439 --> 00:00:16,980
+People often post pre-trained models online,
+
+7
+00:00:16,980 --> 00:00:20,280
+which had been trained on thousands or millions of data points and
+
+8
+00:00:20,280 --> 00:00:24,150
+often serve as a great starting point for model development.
+
+9
+00:00:24,149 --> 00:00:28,079
+Automated ML is another segment of machine learning where
+
+10
+00:00:28,079 --> 00:00:32,280
+service providers will offer tools to create ML models.
+
+11
+00:00:32,280 --> 00:00:36,299
+Generally, these platforms will have a limited set of use cases.
+
+12
+00:00:36,299 --> 00:00:42,099
+If there's a need for more complex models then a custom model may be the way to go.
+

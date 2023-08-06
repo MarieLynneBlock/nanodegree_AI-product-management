@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:03,000
+Now, we're going to talk about training data.
+
+2
+00:00:03,000 --> 00:00:05,700
+Training data is the currency of machine learning
+
+3
+00:00:05,700 --> 00:00:08,835
+and is the basis of learning component in ML.
+
+4
+00:00:08,835 --> 00:00:12,089
+A good way to think about neural networks in the context of
+
+5
+00:00:12,089 --> 00:00:16,425
+training data is to imagine a young child that has never seen a car.
+
+6
+00:00:16,425 --> 00:00:19,350
+After being told what a car is and interacting with
+
+7
+00:00:19,350 --> 00:00:22,335
+different types of vehicles such as buses and trucks,
+
+8
+00:00:22,335 --> 00:00:27,375
+the child will eventually learn what a car is and can identify them in the future.
+
+9
+00:00:27,375 --> 00:00:32,789
+Similarly, a machine learns by looking at many examples of a given object and
+
+10
+00:00:32,789 --> 00:00:35,280
+will eventually learn that a pattern and data can
+
+11
+00:00:35,280 --> 00:00:38,145
+be associated with a specific classification.
+
+12
+00:00:38,145 --> 00:00:42,470
+Now, unlike children, machines are much more difficult to train and
+
+13
+00:00:42,469 --> 00:00:47,015
+require special care and attention to ensure they're learning the correct concepts.
+
+14
+00:00:47,015 --> 00:00:51,575
+In machine learning, the data is key to model performance and outcomes.
+
+15
+00:00:51,575 --> 00:00:54,859
+If you want a model to learn a specific concept,
+
+16
+00:00:54,859 --> 00:00:57,064
+it must be clearly represented in the data
+
+17
+00:00:57,064 --> 00:00:59,704
+in order for the machine to learn it for the future.
+
+18
+00:00:59,704 --> 00:01:02,059
+This means that for example,
+
+19
+00:01:02,060 --> 00:01:05,635
+if you want a machine to learn to detect animal sounds and audio,
+
+20
+00:01:05,635 --> 00:01:07,984
+you must provide the machine with examples
+
+21
+00:01:07,984 --> 00:01:11,030
+of all the types of animals you would like it to learn.
+
+22
+00:01:11,030 --> 00:01:16,790
+Furthermore, if the data used to train the models inaccurate for example,
+
+23
+00:01:16,790 --> 00:01:19,460
+you have humans making these animal noises,
+
+24
+00:01:19,459 --> 00:01:21,589
+then it is unlikely to work on real
+
+25
+00:01:21,590 --> 00:01:25,865
+animal sounds as it has only learned simulated human sounds.
+
+26
+00:01:25,864 --> 00:01:29,689
+With that said, let's go through an example of training a model to
+
+27
+00:01:29,689 --> 00:01:34,239
+see how the model behaves given different types of training data.
+

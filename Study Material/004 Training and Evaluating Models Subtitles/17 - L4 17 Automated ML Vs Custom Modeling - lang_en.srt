@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:03,480
+So when thinking about building ML inter products,
+
+2
+00:00:03,480 --> 00:00:06,629
+we can now look at the different options of build versus buy.
+
+3
+00:00:06,629 --> 00:00:11,699
+With automated ML, you will get easy setup and robust enterprise support.
+
+4
+00:00:11,699 --> 00:00:15,089
+But this will come at a cost of limited use cases and
+
+5
+00:00:15,089 --> 00:00:19,050
+possibly sharing sensitive data with a third party provider.
+
+6
+00:00:19,050 --> 00:00:21,000
+On the flip side,
+
+7
+00:00:21,000 --> 00:00:22,605
+with building a custom model,
+
+8
+00:00:22,605 --> 00:00:26,324
+the possibilities of customization are left to the imagination.
+
+9
+00:00:26,324 --> 00:00:30,910
+But the drawback is that it can be costly to build and manage.
+

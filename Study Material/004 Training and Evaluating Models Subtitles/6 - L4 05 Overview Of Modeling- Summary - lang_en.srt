@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:03,930
+That's a high level overview of modeling and machine learning.
+
+2
+00:00:03,930 --> 00:00:08,775
+We learn that Neural Networks are the basis for much of ML we see today.
+
+3
+00:00:08,775 --> 00:00:13,410
+These networks consist of nodes that are linked together through inputs and outputs with
+
+4
+00:00:13,410 --> 00:00:18,375
+activation functions that determine whether or not a node will forward information.
+
+5
+00:00:18,375 --> 00:00:23,190
+The most common activation functions are the Sigmoid and the Rayleigh functions,
+
+6
+00:00:23,190 --> 00:00:25,859
+because they produce a continuous output allowing for
+
+7
+00:00:25,859 --> 00:00:29,085
+a range of values pass from one node to another.
+
+8
+00:00:29,085 --> 00:00:34,049
+Weights on the inputs of each node are tuned and ultimately define the behavior
+
+9
+00:00:34,049 --> 00:00:39,149
+of data flowing through the network by throttling each inputs impact on the node.
+
+10
+00:00:39,149 --> 00:00:42,379
+Additionally, there are different types of nodes and
+
+11
+00:00:42,380 --> 00:00:46,530
+networks that are specialized for specific use cases.
+

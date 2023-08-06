@@ -1,0 +1,352 @@
+1
+00:00:00,000 --> 00:00:03,200
+So some key points to note are when training a model,
+
+2
+00:00:03,200 --> 00:00:06,419
+you must train it with all types of data that the model is likely to
+
+3
+00:00:06,419 --> 00:00:10,185
+encounter in the future in order to build a robust model.
+
+4
+00:00:10,185 --> 00:00:14,160
+Adding diversity to your data is also important because similar to
+
+5
+00:00:14,160 --> 00:00:18,074
+how the model did not know a gerbil class until it was shown the correct data,
+
+6
+00:00:18,074 --> 00:00:21,179
+if the model only encounters dogs in the snow,
+
+7
+00:00:21,179 --> 00:00:25,574
+then it is very unlikely to identify a dog pictured in a field of grass.
+
+8
+00:00:25,574 --> 00:00:27,329
+Like I said earlier,
+
+9
+00:00:27,329 --> 00:00:31,844
+models require proper care and attention to be robust and performance.
+
+10
+00:00:31,844 --> 00:00:34,109
+To illustrate this in another example,
+
+11
+00:00:34,109 --> 00:00:37,894
+let's imagine you want to build a model to recognize shoes.
+
+12
+00:00:37,895 --> 00:00:39,890
+Like in the previous example,
+
+13
+00:00:39,890 --> 00:00:41,554
+we start with some training data.
+
+14
+00:00:41,554 --> 00:00:44,435
+In this case, three different images of shoes.
+
+15
+00:00:44,435 --> 00:00:46,880
+In order to get a diverse set of data,
+
+16
+00:00:46,880 --> 00:00:49,460
+we've even included a sketch of shoes.
+
+17
+00:00:49,460 --> 00:00:51,965
+Now, once we have trained the model,
+
+18
+00:00:51,965 --> 00:00:56,120
+we put the model into the wild and try to run on some real-world data.
+
+19
+00:00:56,119 --> 00:00:57,844
+As you probably guessed,
+
+20
+00:00:57,844 --> 00:00:59,719
+this is not going to work.
+
+21
+00:00:59,719 --> 00:01:05,260
+The training data only represented a very specific type of shoes, clogs.
+
+22
+00:01:05,260 --> 00:01:08,660
+While these may prove to be great footwear from Northern Europe,
+
+23
+00:01:08,659 --> 00:01:12,019
+they do not represent all the types of shoes we see today.
+
+24
+00:01:12,019 --> 00:01:16,329
+Instead, let's train our model with a more diverse set of footwear.
+
+25
+00:01:16,329 --> 00:01:18,375
+Here, we have included boots,
+
+26
+00:01:18,375 --> 00:01:21,885
+sneakers, dress shoes and even flip-flops.
+
+27
+00:01:21,885 --> 00:01:24,790
+Now, when we see a real-world example,
+
+28
+00:01:24,790 --> 00:01:28,255
+the model will be able to correctly identify the shoes.
+
+29
+00:01:28,254 --> 00:01:30,670
+So looking back at these examples,
+
+30
+00:01:30,670 --> 00:01:34,400
+we should understand that the data used to train the machine learning model is
+
+31
+00:01:34,400 --> 00:01:38,570
+absolutely key to producing a robust and usable model in the real world.
+
+32
+00:01:38,569 --> 00:01:41,269
+Depending on the intended usage of the model,
+
+33
+00:01:41,269 --> 00:01:45,530
+we want to make sure that we are using diverse enough data which means understanding
+
+34
+00:01:45,530 --> 00:01:48,409
+all the potential scenarios that the model is likely to
+
+35
+00:01:48,409 --> 00:01:51,969
+encounter and accommodating for those in the training data.
+
+36
+00:01:51,969 --> 00:01:56,030
+Additionally, we want to reduce the amount of noisy data as much as
+
+37
+00:01:56,030 --> 00:02:00,665
+possible and ensure that the labels we are providing to the machine are accurate.
+
+38
+00:02:00,665 --> 00:02:04,160
+Next, I want to walk you through some common issues we see in
+
+39
+00:02:04,159 --> 00:02:08,870
+training data that can significantly impact the outcomes of our models.
+
+40
+00:02:08,870 --> 00:02:11,870
+First off is the distribution of training data.
+
+41
+00:02:11,870 --> 00:02:15,710
+In this chart, you can see an example of unbalanced training data.
+
+42
+00:02:15,710 --> 00:02:18,125
+Of the four classes, two of them,
+
+43
+00:02:18,125 --> 00:02:23,194
+cat and dog have significantly more training data than bird or snake.
+
+44
+00:02:23,194 --> 00:02:26,120
+This may be due to a number of different factors,
+
+45
+00:02:26,120 --> 00:02:30,724
+including the fact that snakes are simply less common pets than cats or dogs.
+
+46
+00:02:30,724 --> 00:02:33,259
+In cases of unbalanced data,
+
+47
+00:02:33,259 --> 00:02:37,084
+the model will learn significantly more about cats and dogs than
+
+48
+00:02:37,085 --> 00:02:41,435
+other classes and we'll tend to bias towards those classes when running in the wild.
+
+49
+00:02:41,435 --> 00:02:43,670
+In order to prevent this outcome,
+
+50
+00:02:43,669 --> 00:02:46,909
+we either want to collect more training data for the classes that are
+
+51
+00:02:46,909 --> 00:02:51,650
+lacking or reduce the amount of training data for those that have too much.
+
+52
+00:02:51,650 --> 00:02:55,819
+While more training data will often lead to a better model,
+
+53
+00:02:55,819 --> 00:03:00,905
+balancing the data is as important if not more to produce an unbiased model.
+
+54
+00:03:00,905 --> 00:03:05,375
+The second case is similar to the example with shoes we saw earlier.
+
+55
+00:03:05,375 --> 00:03:09,979
+This is where the training examples are different than the real-world examples,
+
+56
+00:03:09,979 --> 00:03:12,829
+even when they technically fall into the same class.
+
+57
+00:03:12,830 --> 00:03:14,750
+To put this in an example,
+
+58
+00:03:14,750 --> 00:03:17,240
+here you can see two audio recordings.
+
+59
+00:03:17,240 --> 00:03:20,550
+The recording on the top was collected in a recording studio,
+
+60
+00:03:20,550 --> 00:03:23,875
+while the one on the bottom was collected from a mobile device.
+
+61
+00:03:23,875 --> 00:03:27,409
+As you may see, the audio collected from the mobile device has
+
+62
+00:03:27,409 --> 00:03:31,594
+a great deal of noise as the cases real life situations.
+
+63
+00:03:31,594 --> 00:03:33,229
+If we were to train the model,
+
+64
+00:03:33,229 --> 00:03:34,959
+only on studio audio,
+
+65
+00:03:34,960 --> 00:03:39,710
+our model would fail miserably at detecting audio collected from mobile devices.
+
+66
+00:03:39,710 --> 00:03:44,140
+This is an example where we want to be aware of what the real-world data will look like,
+
+67
+00:03:44,139 --> 00:03:47,250
+so we can collect appropriate data.
+
+68
+00:03:47,509 --> 00:03:51,049
+Next, we have the issue of mislabeled data.
+
+69
+00:03:51,050 --> 00:03:53,570
+While you may think it is very difficult to mix
+
+70
+00:03:53,569 --> 00:03:56,090
+up a dog and a horse when labeling images,
+
+71
+00:03:56,090 --> 00:04:02,090
+you can imagine in this example where we are parsing entities out of text, in this case,
+
+72
+00:04:02,090 --> 00:04:05,420
+it may be quite difficult to properly labeled the data as it can
+
+73
+00:04:05,419 --> 00:04:09,474
+be unclear where any particular entities should be classified.
+
+74
+00:04:09,474 --> 00:04:13,159
+In this case, we want to be very careful when assigning labels to
+
+75
+00:04:13,159 --> 00:04:16,560
+our training data and ensure that when we are collecting the data,
+
+76
+00:04:16,560 --> 00:04:19,884
+either manually or through a large platform provider,
+
+77
+00:04:19,884 --> 00:04:24,469
+the labels that are returned are accurately classified as expected.
+
+78
+00:04:24,470 --> 00:04:29,225
+Finally, we have the quantity of training data used to train our models.
+
+79
+00:04:29,225 --> 00:04:32,210
+This is actually much more fuzzy as the amount of data
+
+80
+00:04:32,209 --> 00:04:35,449
+required will vary widely based on a number of factors,
+
+81
+00:04:35,449 --> 00:04:38,529
+including the datatype, complexity of the data.
+
+82
+00:04:38,529 --> 00:04:40,729
+Again, you want to make sure that you're thinking
+
+83
+00:04:40,730 --> 00:04:43,460
+about what the real-world data will look like,
+
+84
+00:04:43,459 --> 00:04:46,099
+and the model and model architecture itself.
+
+85
+00:04:46,100 --> 00:04:49,975
+While there is no clear-cut rule as to how much data will be needed,
+
+86
+00:04:49,975 --> 00:04:52,805
+we generally want to start with a few 100 examples of
+
+87
+00:04:52,805 --> 00:04:55,310
+each target class and then scale up
+
+88
+00:04:55,310 --> 00:04:59,449
+the amount of training data until we reach a desired accuracy.
+

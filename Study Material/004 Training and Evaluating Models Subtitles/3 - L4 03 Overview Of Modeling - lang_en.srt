@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:03,119
+Modelling and machine learning consists of constructing
+
+2
+00:00:03,119 --> 00:00:07,665
+the core components that will serve as the framework for a machine-learning model.
+
+3
+00:00:07,665 --> 00:00:11,940
+Neural networks are some of the most common models used in ML.
+
+4
+00:00:11,939 --> 00:00:14,250
+So for the purposes of this lesson,
+
+5
+00:00:14,250 --> 00:00:17,085
+we will focus on this specific type of model.
+
+6
+00:00:17,085 --> 00:00:21,510
+A single neural network is made up of numerous computational layers.
+
+7
+00:00:21,510 --> 00:00:24,090
+Each of these layers will pass a decision to
+
+8
+00:00:24,089 --> 00:00:27,149
+the subsequent layer until reaching the output layer,
+
+9
+00:00:27,149 --> 00:00:30,390
+which will produce a final decision for the input data.
+
+10
+00:00:30,390 --> 00:00:34,054
+The data that goes into the network is a set of values.
+
+11
+00:00:34,054 --> 00:00:35,854
+These values, for example,
+
+12
+00:00:35,854 --> 00:00:39,664
+could be pixels contained in an image or audio waveform.
+
+13
+00:00:39,664 --> 00:00:43,339
+This image shows an example of network with three layers;
+
+14
+00:00:43,340 --> 00:00:45,485
+two hidden layers and an output layer.
+
+15
+00:00:45,484 --> 00:00:47,269
+When counting the number of layers,
+
+16
+00:00:47,270 --> 00:00:50,915
+we generally count all the layers after the input layer.
+
+17
+00:00:50,914 --> 00:00:54,259
+Each layer is made up of some number of nodes,
+
+18
+00:00:54,259 --> 00:00:58,564
+each of which has its own parameters that describe the data flow through the network.
+
+19
+00:00:58,564 --> 00:01:02,299
+Neural networks are sometimes referred to as deep neural networks,
+
+20
+00:01:02,299 --> 00:01:06,034
+simply because of the deep number of layers contained in the network.
+
+21
+00:01:06,034 --> 00:01:08,104
+Before a network is trained,
+
+22
+00:01:08,105 --> 00:01:12,665
+there is an architecture that is defined and used throughout the life of the model.
+
+23
+00:01:12,665 --> 00:01:17,510
+There's a process known as neural architecture search that further optimizes
+
+24
+00:01:17,510 --> 00:01:20,120
+the creation of a neural network by swapping out and
+
+25
+00:01:20,120 --> 00:01:23,365
+testing different architectures as the model is trained.
+
+26
+00:01:23,364 --> 00:01:25,589
+We will go into this a bit later.
+
+27
+00:01:25,590 --> 00:01:29,900
+But to start, we should understand that a neural network is a series of layers,
+
+28
+00:01:29,900 --> 00:01:34,370
+each of which contains different nodes which will perform various calculations.
+
+29
+00:01:34,370 --> 00:01:37,490
+The structure of these nodes and layers as well as how they're
+
+30
+00:01:37,489 --> 00:01:41,459
+connected is what is known as the architecture of the network.
+

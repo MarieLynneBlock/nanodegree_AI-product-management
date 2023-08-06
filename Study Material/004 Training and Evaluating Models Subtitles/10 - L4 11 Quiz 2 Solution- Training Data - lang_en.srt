@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:04,500
+In this quiz, we wanted you to identify what type of
+
+2
+00:00:04,500 --> 00:00:09,929
+trading data is best used for creating a voice assistant for a hotel concierge service.
+
+3
+00:00:09,929 --> 00:00:11,519
+When we look at the options,
+
+4
+00:00:11,519 --> 00:00:14,250
+we can immediately start to eliminate a few of them.
+
+5
+00:00:14,250 --> 00:00:16,140
+If we look at option B,
+
+6
+00:00:16,140 --> 00:00:21,539
+we see that it's calling for 10,000 images of hotel concierge activities.
+
+7
+00:00:21,539 --> 00:00:25,829
+We can immediately remove this because in order to train a voice assistant,
+
+8
+00:00:25,829 --> 00:00:28,859
+image data is unlikely to be of any use.
+
+9
+00:00:28,859 --> 00:00:32,700
+Similarly, we can eliminate option D because that is calling for
+
+10
+00:00:32,700 --> 00:00:38,055
+video data which is essentially a series of images connected together.
+
+11
+00:00:38,054 --> 00:00:40,890
+Then, we have options A and C.
+
+12
+00:00:40,890 --> 00:00:45,490
+Option A, while it is collecting the correct type of data,
+
+13
+00:00:45,490 --> 00:00:49,910
+we see that it only is collecting two hours of audio data which is unlikely
+
+14
+00:00:49,909 --> 00:00:55,899
+to capture all of the types of scenarios that you may encounter in a hotel concierge.
+
+15
+00:00:55,899 --> 00:00:58,079
+That leaves us with option C.
+
+16
+00:00:58,079 --> 00:01:00,754
+Ten hours of audio data of
+
+17
+00:01:00,755 --> 00:01:03,725
+concierge desk conversation and 50 hours of
+
+18
+00:01:03,725 --> 00:01:07,370
+audio data from the most common guest-concierge interactions.
+
+19
+00:01:07,370 --> 00:01:10,460
+As you can see this will capture a fair amount
+
+20
+00:01:10,459 --> 00:01:13,594
+of real-world data as well as diverse data from
+
+21
+00:01:13,594 --> 00:01:16,444
+different locations which will provide us
+
+22
+00:01:16,444 --> 00:01:20,759
+with a sufficient dataset to train our voice assistant.
+
