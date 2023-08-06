@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:02,339
+So let's end here with project management,
+
+2
+00:00:02,339 --> 00:00:06,105
+and getting this actually as a team into production.
+
+3
+00:00:06,105 --> 00:00:07,890
+So I'm often asked here,
+
+4
+00:00:07,889 --> 00:00:09,554
+how much time will this take?
+
+5
+00:00:09,554 --> 00:00:11,265
+The answer is it depends.
+
+6
+00:00:11,265 --> 00:00:13,890
+No different from normal Scrum and Agile.
+
+7
+00:00:13,890 --> 00:00:15,570
+I highly recommend Scrum.
+
+8
+00:00:15,570 --> 00:00:18,260
+This process could take a week, a day,
+
+9
+00:00:18,260 --> 00:00:22,250
+end to end or could take six months depending on how fast you can learn
+
+10
+00:00:22,250 --> 00:00:23,420
+and iterate.
+
+11
+00:00:23,420 --> 00:00:27,530
+I've spent months just tracking down the right dataset to use,
+
+12
+00:00:27,530 --> 00:00:30,575
+or I've seen teams spent three months doing
+
+13
+00:00:30,574 --> 00:00:34,250
+feature and hyper-parameter tuning and specification,
+
+14
+00:00:34,250 --> 00:00:36,515
+or weeks training models.
+
+15
+00:00:36,515 --> 00:00:40,924
+I've also seen models trained in five minutes using off the shelf products.
+
+16
+00:00:40,924 --> 00:00:43,399
+Deploying and measuring really depends a lot on
+
+17
+00:00:43,399 --> 00:00:45,739
+your tooling and your infrastructure that you're using,
+
+18
+00:00:45,740 --> 00:00:48,025
+or if you're going to build that all from scratch.
+
+19
+00:00:48,024 --> 00:00:53,060
+Again, it sometimes takes an hour to get stakeholders on
+
+20
+00:00:53,060 --> 00:00:55,340
+track depending on the size of your organization or it
+
+21
+00:00:55,340 --> 00:00:57,650
+could take six months in a highly matrix world.
+
+22
+00:00:57,649 --> 00:00:59,629
+It totally depends.
+
+23
+00:00:59,630 --> 00:01:03,085
+It's important to use Scrum.
+
+24
+00:01:03,085 --> 00:01:08,150
+Super normal, no different from normal development processes.
+
+25
+00:01:08,150 --> 00:01:12,975
+As the team you're doing backlog planning, sprint meeting, backlogs.
+
+26
+00:01:12,974 --> 00:01:16,969
+A Scrum teams sprint can last anywhere from one to four weeks.
+
+27
+00:01:16,969 --> 00:01:20,929
+There's lots of great online resources around Scrum and how to run that.
+
+28
+00:01:20,930 --> 00:01:25,230
+I believe Udacity also has some great courses. So check those out.
+

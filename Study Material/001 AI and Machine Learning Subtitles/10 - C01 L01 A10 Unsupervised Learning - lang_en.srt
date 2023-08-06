@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:01,379
+On the other end of the spectrum,
+
+2
+00:00:01,379 --> 00:00:03,254
+we have unsupervised learning.
+
+3
+00:00:03,254 --> 00:00:06,810
+Unsupervised learning finds patterns in data.
+
+4
+00:00:06,809 --> 00:00:11,369
+Clustering is a good example here of unsupervised learning,
+
+5
+00:00:11,369 --> 00:00:14,234
+where the original data is all gray and
+
+6
+00:00:14,234 --> 00:00:18,105
+unsupervised learning can cluster the data into three different sections.
+
+7
+00:00:18,105 --> 00:00:20,640
+There are very few business applications of this,
+
+8
+00:00:20,640 --> 00:00:23,399
+but there's quite a few examples in
+
+9
+00:00:23,399 --> 00:00:27,509
+the media of unsupervised learning particularly in game play.
+
+10
+00:00:27,510 --> 00:00:32,340
+An unsupervised learning use case that may actually be deployed in
+
+11
+00:00:32,340 --> 00:00:36,575
+a business or production environment is around an e-commerce website.
+
+12
+00:00:36,575 --> 00:00:40,355
+So if you have a static or fairly static e-commerce website
+
+13
+00:00:40,354 --> 00:00:42,199
+and you're asking the question
+
+14
+00:00:42,200 --> 00:00:44,900
+what is a common customer journey or
+
+15
+00:00:44,899 --> 00:00:48,048
+path through the website that results in a high conversion,
+
+16
+00:00:48,048 --> 00:00:49,685
+you can look at the data.
+
+17
+00:00:49,685 --> 00:00:52,010
+Using an unsupervised learning technique,
+
+18
+00:00:52,009 --> 00:00:54,559
+cluster the customer journey into
+
+19
+00:00:54,560 --> 00:00:58,250
+those different patterns or paths that customers take
+
+20
+00:00:58,250 --> 00:00:59,840
+to actually purchase something.
+
+21
+00:00:59,840 --> 00:01:02,570
+So it could be that people go to your product page,
+
+22
+00:01:02,570 --> 00:01:06,439
+and then they drill down into different collections or featured products.
+
+23
+00:01:06,439 --> 00:01:09,739
+Then, they add something to their cart and they go linearly
+
+24
+00:01:09,739 --> 00:01:10,939
+through this order summary,
+
+25
+00:01:10,939 --> 00:01:12,530
+and out to shipping.
+
+26
+00:01:12,530 --> 00:01:15,140
+Or, they may go to your homepage and have
+
+27
+00:01:15,140 --> 00:01:17,870
+a totally separate journey around managing their account.
+
+28
+00:01:17,870 --> 00:01:20,900
+These can be different clusters of
+
+29
+00:01:20,900 --> 00:01:24,170
+using unsupervised techniques that you can bubble these up
+
+30
+00:01:24,170 --> 00:01:26,159
+and learn about them.
+

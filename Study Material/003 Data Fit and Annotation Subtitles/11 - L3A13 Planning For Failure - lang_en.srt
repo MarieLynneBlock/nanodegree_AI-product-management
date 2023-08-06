@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:03,944
+So you may not be able to train your model on all the possible data points.
+
+2
+00:00:03,944 --> 00:00:05,609
+In our case, it was pretty simple.
+
+3
+00:00:05,610 --> 00:00:10,275
+It was a yes/no. But you will sometimes need to design for unknown cases.
+
+4
+00:00:10,275 --> 00:00:11,759
+In terms of a job design,
+
+5
+00:00:11,759 --> 00:00:13,949
+this could be handled by including an unknown or
+
+6
+00:00:13,949 --> 00:00:16,724
+an unable to answer option among the labels.
+
+7
+00:00:16,725 --> 00:00:20,520
+You should design for the outcome with the least negative impact.
+
+8
+00:00:20,519 --> 00:00:22,949
+So if we take a look at this sign over here,
+
+9
+00:00:22,949 --> 00:00:26,730
+this would be safest to say that this is a no parking sign.
+
+10
+00:00:26,730 --> 00:00:28,769
+We want to decrease the chances of someone getting
+
+11
+00:00:28,769 --> 00:00:32,250
+a parking ticket and because this is such a confusing image,
+
+12
+00:00:32,250 --> 00:00:34,515
+it is best to say no parking
+
+13
+00:00:34,515 --> 00:00:35,969
+regardless of whether there are
+
+14
+00:00:35,969 --> 00:00:39,250
+three hours in the day that you might be able to park there.
+

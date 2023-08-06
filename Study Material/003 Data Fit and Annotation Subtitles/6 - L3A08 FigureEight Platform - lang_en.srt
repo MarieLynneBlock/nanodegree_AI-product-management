@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:01,889
+So when you go to the figure eight platform,
+
+2
+00:00:01,889 --> 00:00:03,960
+you'll be taken to our template library,
+
+3
+00:00:03,960 --> 00:00:06,644
+where all of our use cases are broken down
+
+4
+00:00:06,644 --> 00:00:10,004
+such as sentiment analysis, search relevance etc.
+
+5
+00:00:10,005 --> 00:00:13,589
+We're going to go into image annotation and in here,
+
+6
+00:00:13,589 --> 00:00:18,059
+we have several different job types mostly tailored to actually annotating images.
+
+7
+00:00:18,059 --> 00:00:20,584
+So placing bounding boxes around items,
+
+8
+00:00:20,585 --> 00:00:24,164
+using polygon tools outline objects etc.
+
+9
+00:00:24,164 --> 00:00:27,304
+We'll go down to the image categorization.
+
+10
+00:00:27,304 --> 00:00:30,019
+So we can preview this template in the platform
+
+11
+00:00:30,019 --> 00:00:33,604
+here and we can see that there's a set of instructions.
+
+12
+00:00:33,604 --> 00:00:37,804
+In this case, we're categorizing whether an image includes animals.
+
+13
+00:00:37,804 --> 00:00:41,884
+What kind of animal it is and if there is another type of animal what that would be.
+
+14
+00:00:41,884 --> 00:00:43,394
+So we have examples,
+
+15
+00:00:43,395 --> 00:00:45,200
+how they should be categorized,
+
+16
+00:00:45,200 --> 00:00:46,880
+and then further down,
+
+17
+00:00:46,880 --> 00:00:48,950
+we can see the job design itself.
+
+18
+00:00:48,950 --> 00:00:50,359
+This is interactive.
+
+19
+00:00:50,359 --> 00:00:52,250
+So we can click each of
+
+20
+00:00:52,250 --> 00:00:55,835
+the options and see all the different types of elements that pop up.
+
+21
+00:00:55,835 --> 00:00:58,100
+So we know that this will work for our use case.
+
+22
+00:00:58,100 --> 00:01:00,600
+Let's go ahead and use this template.
+

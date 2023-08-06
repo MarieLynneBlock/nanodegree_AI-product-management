@@ -1,0 +1,136 @@
+1
+00:00:00,000 --> 00:00:03,569
+Another category of unsupervised learning is around reinforcement learning,
+
+2
+00:00:03,569 --> 00:00:05,669
+which is an area of machine-learning concerned with
+
+3
+00:00:05,669 --> 00:00:07,830
+how machine learning agents
+
+4
+00:00:07,830 --> 00:00:13,125
+ought to take action in an environment so as to maximize a specific outcome.
+
+5
+00:00:13,125 --> 00:00:16,155
+So you may be familiar with
+
+6
+00:00:16,155 --> 00:00:18,900
+an example such as the chat bar that was put up
+
+7
+00:00:18,899 --> 00:00:20,820
+by Microsoft a couple years ago,
+
+8
+00:00:20,820 --> 00:00:24,629
+where it was an agent that was learning about
+
+9
+00:00:24,629 --> 00:00:26,969
+and having conversations with the public.
+
+10
+00:00:26,969 --> 00:00:30,059
+It didn't go so well because what happened was,
+
+11
+00:00:30,059 --> 00:00:33,449
+the public actually trained it in a situation that was less than
+
+12
+00:00:33,450 --> 00:00:34,710
+favorable and ended
+
+13
+00:00:34,710 --> 00:00:39,380
+up sort of learning a lot racists and unsavory techniques.
+
+14
+00:00:39,380 --> 00:00:43,340
+So reinforcement learning is really, really powerful.
+
+15
+00:00:43,340 --> 00:00:47,359
+When it actually takes those actions from an environment in that reward,
+
+16
+00:00:47,359 --> 00:00:50,089
+and it's interpreted and fed back into the agent to
+
+17
+00:00:50,090 --> 00:00:53,210
+learn about the environment and continuously make decisions.
+
+18
+00:00:53,210 --> 00:00:59,420
+If you don't have a human in the loop in reinforcement learning
+
+19
+00:00:59,420 --> 00:01:00,480
+to deploy the production,
+
+20
+00:01:00,479 --> 00:01:03,739
+it can be really scary and often
+
+21
+00:01:03,740 --> 00:01:08,030
+unwise to deploy that without some sort of manual intervention.
+
+22
+00:01:08,030 --> 00:01:10,219
+An example of reinforcement learning
+
+23
+00:01:10,219 --> 00:01:14,420
+here that I used a lot to explain it's like a two-year-old.
+
+24
+00:01:14,420 --> 00:01:18,140
+So when you are teaching a two-year-old about different animals,
+
+25
+00:01:18,140 --> 00:01:19,010
+and you're like,
+
+26
+00:01:19,010 --> 00:01:21,859
+hey this is a cat and this is a dog and this is a cow,
+
+27
+00:01:21,859 --> 00:01:24,189
+and they may have a picture book in front of them.
+
+28
+00:01:24,189 --> 00:01:27,409
+Then you'd get them out to an actual barnyard and they see a cow
+
+29
+00:01:27,409 --> 00:01:28,219
+for the first time,
+
+30
+00:01:28,219 --> 00:01:31,769
+they may look at you quizzically and be like cow,
+
+31
+00:01:31,769 --> 00:01:34,350
+and you're going to as the parents reinforce that,
+
+32
+00:01:34,349 --> 00:01:36,539
+you're going to say, "Yeah, honey that's a cow."
+
+33
+00:01:36,540 --> 00:01:38,760
+That reinforces it for that child,
+
+34
+00:01:38,760 --> 00:01:41,650
+and they learn what a cow is.
+

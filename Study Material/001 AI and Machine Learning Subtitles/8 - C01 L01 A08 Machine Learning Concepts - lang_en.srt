@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:02,730
+So now we're going to take a little bit of
+
+2
+00:00:02,730 --> 00:00:05,820
+a deeper dive into machine learning specifically.
+
+3
+00:00:05,820 --> 00:00:08,054
+So what is machine learning?
+
+4
+00:00:08,054 --> 00:00:11,564
+Machine learning is a branch of artificial intelligence,
+
+5
+00:00:11,564 --> 00:00:15,299
+as simply put by Tom Mitchell,
+
+6
+00:00:15,300 --> 00:00:18,484
+Professor and Former Chair of the Machine-Learning Department
+
+7
+00:00:18,484 --> 00:00:19,544
+at Carnegie Mellon.
+
+8
+00:00:19,545 --> 00:00:24,450
+Computer algorithms that improve automatically through experience,
+
+9
+00:00:24,449 --> 00:00:26,024
+pretty simple.
+
+10
+00:00:26,024 --> 00:00:30,140
+We're going to go over three major sections of machine-learning
+
+11
+00:00:30,140 --> 00:00:31,475
+and different techniques.
+
+12
+00:00:31,475 --> 00:00:35,899
+Supervised learning, unsupervised learning, and reinforcement learning.
+
+13
+00:00:35,899 --> 00:00:39,649
+Supervised learning uses pre-labeled data to train a model to
+
+14
+00:00:39,649 --> 00:00:43,864
+predict new outcomes for information that hasn't been exposed to before.
+
+15
+00:00:43,865 --> 00:00:47,660
+Unsupervised learning uses non-labeled data and self
+
+16
+00:00:47,659 --> 00:00:52,339
+organizes to predict patterns or outcomes such as clustering or associations.
+
+17
+00:00:52,340 --> 00:00:55,790
+Reinforcement learning is giving feedback to an algorithm when
+
+18
+00:00:55,789 --> 00:00:59,149
+it does something right or wrong based on a discrete outcome,
+
+19
+00:00:59,149 --> 00:01:02,670
+this can either be in real time or offline.
+

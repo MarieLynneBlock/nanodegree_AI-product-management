@@ -1,0 +1,200 @@
+1
+00:00:00,000 --> 00:00:02,609
+So let's talk a little bit about deep learning,
+
+2
+00:00:02,609 --> 00:00:07,125
+which is used today in many state of the art business applications.
+
+3
+00:00:07,125 --> 00:00:12,120
+In simple terms, deep learning can process and learn from much,
+
+4
+00:00:12,119 --> 00:00:14,834
+much more data than previous approaches,
+
+5
+00:00:14,835 --> 00:00:16,455
+which with the right data,
+
+6
+00:00:16,454 --> 00:00:20,834
+can really improve the performance of a model against a desired outcome.
+
+7
+00:00:20,835 --> 00:00:23,999
+So if you take Siri, or Alexa,
+
+8
+00:00:23,998 --> 00:00:25,739
+or some of the computer vision,
+
+9
+00:00:25,739 --> 00:00:28,070
+facial recognition we've been talking about,
+
+10
+00:00:28,070 --> 00:00:30,750
+this is likely deep learning behind the scenes,
+
+11
+00:00:30,750 --> 00:00:38,295
+where you're using huge amounts of data to really improve the performance.
+
+12
+00:00:38,295 --> 00:00:42,554
+So why is AI so relevant now?
+
+13
+00:00:42,554 --> 00:00:45,549
+It's gotten a lot better in the last five years,
+
+14
+00:00:45,549 --> 00:00:48,004
+and that's really due to three factors.
+
+15
+00:00:48,005 --> 00:00:50,005
+One is compute power,
+
+16
+00:00:50,005 --> 00:00:52,410
+the other one is data availability,
+
+17
+00:00:52,409 --> 00:00:57,009
+and three, the cost is coming down super drastically.
+
+18
+00:00:58,880 --> 00:01:01,195
+As you can see here,
+
+19
+00:01:01,195 --> 00:01:05,944
+supercomputers measure their performance in FLOPS or calculations per second.
+
+20
+00:01:05,944 --> 00:01:09,739
+A computer that has 10 FLOPS can make 10 calculations in a second,
+
+21
+00:01:09,739 --> 00:01:13,009
+which is pretty abysmal for a modern computer.
+
+22
+00:01:13,010 --> 00:01:15,950
+Your laptop is likely capable of
+
+23
+00:01:15,950 --> 00:01:19,445
+several teraFLOPS or trillions of calculations per second.
+
+24
+00:01:19,444 --> 00:01:25,049
+Basically, a lot more compute power than was available 50 years ago.
+
+25
+00:01:26,090 --> 00:01:29,180
+The other thing that's growing like crazy,
+
+26
+00:01:29,180 --> 00:01:33,230
+is that the amount of data being created is growing exponentially.
+
+27
+00:01:33,230 --> 00:01:34,790
+There's a study here.
+
+28
+00:01:34,790 --> 00:01:39,000
+A report came out November of last year in 2018 from the IDC,
+
+29
+00:01:39,000 --> 00:01:42,155
+that makes projections all the way up to 2025.
+
+30
+00:01:42,155 --> 00:01:49,114
+It shows the global data sphere reading at a 175 zettabytes of information.
+
+31
+00:01:49,114 --> 00:01:54,574
+So sometimes it's hard to get my mind around what 175 zettabytes is.
+
+32
+00:01:54,575 --> 00:01:56,030
+One example is that if you took
+
+33
+00:01:56,030 --> 00:02:01,159
+a 175 zettabytes worth of data and you try to put it on DVDs,
+
+34
+00:02:01,159 --> 00:02:04,910
+then you would have a stack of DVDs that could get you to the moon
+
+35
+00:02:04,909 --> 00:02:10,370
+23 times or circle the Earth 222 times.
+
+36
+00:02:10,370 --> 00:02:16,069
+In short, an absolute ton of data that's really hard for humans to process,
+
+37
+00:02:16,069 --> 00:02:21,239
+but really easy and really good for deep learning and machine learning techniques.
+
+38
+00:02:22,099 --> 00:02:25,344
+The other thing that's come down drastically is
+
+39
+00:02:25,344 --> 00:02:28,625
+access to all this compute power and data.
+
+40
+00:02:28,625 --> 00:02:29,840
+So the cost here,
+
+41
+00:02:29,840 --> 00:02:32,185
+I'll take for example, an iPad 2.
+
+42
+00:02:32,185 --> 00:02:34,604
+When it came out in 2010,
+
+43
+00:02:34,604 --> 00:02:36,774
+cost a couple 100 bucks,
+
+44
+00:02:36,775 --> 00:02:38,569
+I just googled it today on eBay.
+
+45
+00:02:38,569 --> 00:02:40,984
+I can get one for 3,999.
+
+46
+00:02:40,985 --> 00:02:43,010
+I might not be able to find a charger,
+
+47
+00:02:43,009 --> 00:02:47,144
+but the cost has come down considerably over time,
+
+48
+00:02:47,145 --> 00:02:51,439
+which makes being able to deploy these algorithms that actually
+
+49
+00:02:51,439 --> 00:02:56,210
+run large-scale computations required for deep learning techniques,
+
+50
+00:02:56,210 --> 00:02:59,700
+a lot more accessible to a lot more people.
+

@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:01,590
+In order to train your model,
+
+2
+00:00:01,590 --> 00:00:03,060
+you'll need annotated data.
+
+3
+00:00:03,060 --> 00:00:04,950
+Whether that means categorizing text,
+
+4
+00:00:04,950 --> 00:00:06,540
+outlining objects and images,
+
+5
+00:00:06,540 --> 00:00:08,984
+or any number of labeling requirements.
+
+6
+00:00:08,984 --> 00:00:12,269
+For this, you might choose a data labeling platform like Figure Eight.
+
+7
+00:00:12,269 --> 00:00:14,070
+This requires a few steps,
+
+8
+00:00:14,070 --> 00:00:16,890
+uploading data, designing a job,
+
+9
+00:00:16,890 --> 00:00:20,760
+creating test questions, launching and monitoring results,
+
+10
+00:00:20,760 --> 00:00:23,700
+and we'll go over each of these steps in more detail soon.
+
+11
+00:00:23,699 --> 00:00:26,189
+It's easiest to learn these steps in an example,
+
+12
+00:00:26,190 --> 00:00:30,359
+and I'll show you how we at Figure Eight annotated a dataset of parking sign images.
+
+13
+00:00:30,359 --> 00:00:32,945
+Here's what an image from this dataset looks like.
+
+14
+00:00:32,945 --> 00:00:35,179
+These are images taken around San Francisco,
+
+15
+00:00:35,179 --> 00:00:37,519
+and the aim of this project was to identify the signs
+
+16
+00:00:37,520 --> 00:00:40,175
+as distinct from the background and other objects.
+
+17
+00:00:40,174 --> 00:00:42,469
+A later project may be able to actually read and
+
+18
+00:00:42,469 --> 00:00:44,750
+identify the different types of signs, but for now,
+
+19
+00:00:44,750 --> 00:00:48,604
+we want to take a bunch of images from around San Francisco and label them as containing,
+
+20
+00:00:48,604 --> 00:00:50,074
+or not containing a sign.
+
+21
+00:00:50,075 --> 00:00:54,545
+A yes/no label. Next, I'll go over designing a data annotation job generally,
+
+22
+00:00:54,545 --> 00:00:57,420
+and then using this parking sign data.
+

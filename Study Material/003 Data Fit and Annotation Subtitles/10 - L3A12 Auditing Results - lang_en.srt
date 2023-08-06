@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:01,470
+Once your job is complete,
+
+2
+00:00:01,470 --> 00:00:03,179
+you can download the results,
+
+3
+00:00:03,180 --> 00:00:05,235
+over in the results page,
+
+4
+00:00:05,235 --> 00:00:08,400
+and you should absolutely audit the results of your job.
+
+5
+00:00:08,400 --> 00:00:12,794
+So this is very similar in essence to auditing test questions.
+
+6
+00:00:12,794 --> 00:00:17,100
+This gives you a chance to identify where contributors misunderstood the job.
+
+7
+00:00:17,100 --> 00:00:19,215
+Go back update the instructions,
+
+8
+00:00:19,214 --> 00:00:21,975
+update the design, create more test questions.
+
+9
+00:00:21,975 --> 00:00:26,880
+Then you can launch either another test or you might find that your job design was great,
+
+10
+00:00:26,879 --> 00:00:29,564
+and you got the quality you wanted on the first try.
+
+11
+00:00:29,565 --> 00:00:32,800
+You could go back and launch the remainder of your data.
+

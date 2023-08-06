@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:03,359
+Welcome to AI for product managers.
+
+2
+00:00:03,359 --> 00:00:07,439
+In this nano-degree, you'll learn about how to build products that leverage AI.
+
+3
+00:00:07,440 --> 00:00:09,405
+I'm Alyssa Simpson Rohwerger.
+
+4
+00:00:09,404 --> 00:00:11,625
+Thanks so much for joining me for this lesson.
+
+5
+00:00:11,625 --> 00:00:14,279
+I've had the privilege to be doing product management for
+
+6
+00:00:14,279 --> 00:00:17,219
+close to 10 years building data intensive products.
+
+7
+00:00:17,219 --> 00:00:20,894
+The last four years of which I've been using machine learning technology.
+
+8
+00:00:20,894 --> 00:00:24,225
+I'm currently VP of product at Figure Eight, an apping company.
+
+9
+00:00:24,225 --> 00:00:27,240
+Figure Eight combines human and machine intelligence to provide
+
+10
+00:00:27,239 --> 00:00:30,029
+high-quality annotated training data that powers
+
+11
+00:00:30,030 --> 00:00:34,289
+the world's most sophisticated and innovative machine-learning and business solutions.
+
+12
+00:00:34,289 --> 00:00:38,479
+Previously I was a customer at IBM Watson as director of
+
+13
+00:00:38,479 --> 00:00:40,339
+product management for a portfolio of
+
+14
+00:00:40,340 --> 00:00:43,565
+different machine learning products that included computer vision,
+
+15
+00:00:43,564 --> 00:00:47,134
+speech, machine translation, sentiment analysis.
+
+16
+00:00:47,134 --> 00:00:52,414
+Let's get started. What we're going to cover in today's lesson is an overview of AI.
+
+17
+00:00:52,414 --> 00:00:54,655
+How that's different from machine-learning.
+
+18
+00:00:54,655 --> 00:00:58,130
+Cover some terms like neural network and deep learning as
+
+19
+00:00:58,130 --> 00:01:01,865
+well as a little bit around what the current state of the art is in AI.
+
+20
+00:01:01,865 --> 00:01:06,140
+I'm really excited about AI technology because generally speaking,
+
+21
+00:01:06,140 --> 00:01:10,340
+I believe it has the potential to rapidly change our world for the better,
+
+22
+00:01:10,340 --> 00:01:13,445
+helping people improve outcomes across industries.
+
+23
+00:01:13,444 --> 00:01:17,989
+Some of this I get to see every single day and it's really cool.
+
+24
+00:01:17,989 --> 00:01:21,739
+Everything from improving outcomes for patients,
+
+25
+00:01:21,739 --> 00:01:27,379
+to being able to scale customer service and have people be far less frustrated,
+
+26
+00:01:27,379 --> 00:01:32,519
+to reducing drought and water usage here in California.
+

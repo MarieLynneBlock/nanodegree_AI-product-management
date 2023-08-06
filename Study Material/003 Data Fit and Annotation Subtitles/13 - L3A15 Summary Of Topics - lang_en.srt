@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:02,970
+You've learned a lot in this lesson and I wanted to do a quick recap.
+
+2
+00:00:02,970 --> 00:00:04,980
+First, we talked about how the data really
+
+3
+00:00:04,980 --> 00:00:07,740
+defines what patterns in machine learning model can learn.
+
+4
+00:00:07,740 --> 00:00:09,630
+So how complete the data is,
+
+5
+00:00:09,630 --> 00:00:13,605
+and how well it fits your business use case can really affect the accuracy of the model.
+
+6
+00:00:13,605 --> 00:00:18,329
+Then we talked about methods for creating a dataset and annotating existing data.
+
+7
+00:00:18,329 --> 00:00:21,929
+Specifically, how you can design a data annotation job that includes
+
+8
+00:00:21,929 --> 00:00:25,800
+clear instructions for human annotators and examples of each datatype.
+
+9
+00:00:25,800 --> 00:00:28,769
+Finally, something to keep in mind is updating your model
+
+10
+00:00:28,769 --> 00:00:32,070
+as needed in response to changes in the underlying data.
+
+11
+00:00:32,070 --> 00:00:34,500
+You should always keep your user front of mind and
+
+12
+00:00:34,500 --> 00:00:37,155
+consider how you might improve the model over time.
+
+13
+00:00:37,155 --> 00:00:40,460
+This information is really useful for a variety of products,
+
+14
+00:00:40,460 --> 00:00:42,740
+and the ability to create a new data set is something
+
+15
+00:00:42,740 --> 00:00:45,560
+you'll need if you're creating a new product or application.
+
+16
+00:00:45,560 --> 00:00:50,550
+Next you'll get a chance to apply what you've learned in a data annotation project.
+

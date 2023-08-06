@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:01,754
+So 50 years ago,
+
+2
+00:00:01,754 --> 00:00:07,064
+AI was used to describe transformational technologies like a calculator.
+
+3
+00:00:07,065 --> 00:00:09,900
+Today, it might be sort of hard pressed to find
+
+4
+00:00:09,900 --> 00:00:13,470
+anyone who thinks a calculator is a great example of AI.
+
+5
+00:00:13,470 --> 00:00:16,365
+However, what's most important to take away is that this
+
+6
+00:00:16,364 --> 00:00:19,754
+continues to change as the technology changes.
+
+7
+00:00:19,754 --> 00:00:22,859
+So machine learning is a term that applies to algorithms
+
+8
+00:00:22,859 --> 00:00:24,614
+which can learn from data.
+
+9
+00:00:24,614 --> 00:00:28,189
+Typically speaking today that often references
+
+10
+00:00:28,190 --> 00:00:32,120
+supervised learning techniques where humans actually massage the data,
+
+11
+00:00:32,119 --> 00:00:35,448
+design different sort of representations or features of that data,
+
+12
+00:00:35,448 --> 00:00:36,725
+and train a model.
+
+13
+00:00:36,725 --> 00:00:39,829
+More recently deep learning is a subset of
+
+14
+00:00:39,829 --> 00:00:43,909
+machine learning in which there's multilayered of neural networks
+
+15
+00:00:43,909 --> 00:00:45,259
+that learned from very,
+
+16
+00:00:45,259 --> 00:00:51,445
+very large sets of data to predict outcomes from unstructured inputs.
+
+17
+00:00:51,445 --> 00:00:56,689
+Generally speaking, AI integrates perception so understanding the world,
+
+18
+00:00:56,689 --> 00:01:00,859
+predicting, reasoning, and decision-making around getting
+
+19
+00:01:00,859 --> 00:01:02,464
+to a particular outcome.
+
+20
+00:01:02,465 --> 00:01:06,695
+So what do people mean when they refer to "AI'?
+
+21
+00:01:06,694 --> 00:01:09,229
+The term AI is aspirational,
+
+22
+00:01:09,230 --> 00:01:12,770
+a moving target based on those capabilities that humans possess
+
+23
+00:01:12,769 --> 00:01:15,039
+but machines do not.
+
+24
+00:01:15,040 --> 00:01:17,829
+These days when people say AI,
+
+25
+00:01:17,828 --> 00:01:21,229
+they often mean the most advanced machine-learning techniques
+
+26
+00:01:21,230 --> 00:01:23,150
+that are available today,
+
+27
+00:01:23,150 --> 00:01:26,120
+that may be deep learning but in a few weeks from now
+
+28
+00:01:26,120 --> 00:01:30,180
+or a few months from now that may be referencing something totally different.
+

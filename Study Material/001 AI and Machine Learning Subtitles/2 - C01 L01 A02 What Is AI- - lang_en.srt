@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:01,605
+What is AI?
+
+2
+00:00:01,605 --> 00:00:05,415
+There's no one definition about what describes AI.
+
+3
+00:00:05,415 --> 00:00:09,300
+Most typically today, AI stands for Artificial Intelligence.
+
+4
+00:00:09,300 --> 00:00:12,240
+However, more recently the abbreviation can also stand
+
+5
+00:00:12,240 --> 00:00:14,384
+for Augmented Intelligence.
+
+6
+00:00:14,384 --> 00:00:17,670
+Andrew Moore, dean of computer science at the Carnegie Mellon
+
+7
+00:00:17,670 --> 00:00:22,290
+defines AI as the science and engineering of making computers
+
+8
+00:00:22,289 --> 00:00:24,568
+behave in ways that until recently,
+
+9
+00:00:24,568 --> 00:00:28,299
+we thought required human intelligence.
+
