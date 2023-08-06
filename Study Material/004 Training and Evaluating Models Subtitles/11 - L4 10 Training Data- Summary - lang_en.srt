@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:03,044
+There we are. In machine learning,
+
+2
+00:00:03,044 --> 00:00:06,285
+the training data is key to building robust AI.
+
+3
+00:00:06,285 --> 00:00:09,120
+We rely on the data to give the machine
+
+4
+00:00:09,119 --> 00:00:12,809
+all the insights needed to process the real-world data.
+
+5
+00:00:12,810 --> 00:00:17,969
+If we remain aware of the types of data the model will encounter in the wild,
+
+6
+00:00:17,969 --> 00:00:22,410
+then we can tailor our training data to encompass as many cases as possible.
+
+7
+00:00:22,410 --> 00:00:25,949
+While it may not be feasible to cover every corner case,
+
+8
+00:00:25,949 --> 00:00:28,199
+over time we can monitor the performance of
+
+9
+00:00:28,199 --> 00:00:31,500
+the model and understand where the model performance is weak,
+
+10
+00:00:31,500 --> 00:00:33,765
+and update the model as necessary.
+
+11
+00:00:33,765 --> 00:00:35,185
+In the next section,
+
+12
+00:00:35,185 --> 00:00:38,539
+we'll go over exactly how to evaluate your models,
+
+13
+00:00:38,539 --> 00:00:42,590
+to understand where the model is performing well and where the model is lacking.
+
+14
+00:00:42,590 --> 00:00:44,480
+This will allow us to ensure,
+
+15
+00:00:44,479 --> 00:00:48,809
+that the models we build will be successful when put into production.
+

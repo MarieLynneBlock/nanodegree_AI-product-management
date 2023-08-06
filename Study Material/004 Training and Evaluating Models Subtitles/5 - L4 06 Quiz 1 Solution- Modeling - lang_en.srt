@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:02,940
+So in this quiz we wanted to identify
+
+2
+00:00:02,940 --> 00:00:07,140
+which of these statements are true about activation functions.
+
+3
+00:00:07,139 --> 00:00:08,924
+Going through the list,
+
+4
+00:00:08,925 --> 00:00:12,315
+we see the option A discusses thresholds.
+
+5
+00:00:12,314 --> 00:00:16,484
+We saw that using thresholds are not the best options,
+
+6
+00:00:16,484 --> 00:00:18,794
+because they act as step functions,
+
+7
+00:00:18,795 --> 00:00:23,865
+which simply return a zero or one instead of a continuous value.
+
+8
+00:00:23,864 --> 00:00:28,619
+Looking at the next option we do actually like sigmoids,
+
+9
+00:00:28,620 --> 00:00:31,410
+because they return a continuous range between zero and
+
+10
+00:00:31,410 --> 00:00:36,179
+one allowing a range of decisions rather than simply yes or no.
+
+11
+00:00:36,179 --> 00:00:38,310
+Looking at C and D,
+
+12
+00:00:38,310 --> 00:00:41,484
+we see that these are both discussing ReLU functions.
+
+13
+00:00:41,484 --> 00:00:43,530
+However, in option C,
+
+14
+00:00:43,530 --> 00:00:48,515
+it says that they are linear from negative infinity to infinity which is incorrect.
+
+15
+00:00:48,515 --> 00:00:54,259
+ReLU functions in fact have different slopes below zero and above zero.
+
+16
+00:00:54,259 --> 00:00:59,500
+This is why we select B and D as the correct options.
+

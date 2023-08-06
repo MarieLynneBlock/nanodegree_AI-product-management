@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:04,320
+In this quiz, we wanted you to calculate the overall performance of
+
+2
+00:00:04,320 --> 00:00:08,804
+this model given the confusion matrix and these ground truth labels.
+
+3
+00:00:08,804 --> 00:00:11,865
+The intuition for this answer,
+
+4
+00:00:11,865 --> 00:00:16,440
+is we calculated the recall for each of the classes.
+
+5
+00:00:16,440 --> 00:00:21,150
+We next calculated the precision for each of the classes as well,
+
+6
+00:00:21,149 --> 00:00:24,854
+and found the overall model recall and precision.
+
+7
+00:00:24,855 --> 00:00:26,760
+Once we had these,
+
+8
+00:00:26,760 --> 00:00:30,090
+we plugged them into our formula for the F1 score and got
+
+9
+00:00:30,089 --> 00:00:34,545
+an overall model performance of 0.75.
+
+10
+00:00:34,545 --> 00:00:39,179
+This gives us a good indication that the model is performing well,
+
+11
+00:00:39,179 --> 00:00:42,399
+but could still benefit from additional training.
+

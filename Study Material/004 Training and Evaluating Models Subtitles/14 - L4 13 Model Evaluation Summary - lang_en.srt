@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:03,000
+That sums up our model evaluation.
+
+2
+00:00:03,000 --> 00:00:08,280
+We use test data to calculate the precision and recall for each class on the model,
+
+3
+00:00:08,279 --> 00:00:11,304
+as well as an overall model Precision and Recall.
+
+4
+00:00:11,304 --> 00:00:14,550
+We use the metrics to calculate an F1 score,
+
+5
+00:00:14,550 --> 00:00:17,640
+which gives us an overall performance measure of the model,
+
+6
+00:00:17,640 --> 00:00:22,710
+taking into account correctly and incorrectly predicted examples for all classes.
+
+7
+00:00:22,710 --> 00:00:25,050
+We also plotted the predictions on
+
+8
+00:00:25,050 --> 00:00:28,920
+a confusion matrix to get into where model biases may occur,
+
+9
+00:00:28,920 --> 00:00:32,954
+and which classes we should focus on their future trading cycles.
+
+10
+00:00:32,954 --> 00:00:37,339
+Next, we will talk about transfer learning and automated ML.
+
+11
+00:00:37,340 --> 00:00:40,460
+These are two facets of machine learning that have made
+
+12
+00:00:40,460 --> 00:00:44,030
+the development of ML models more accessible to developers,
+
+13
+00:00:44,030 --> 00:00:46,850
+as well as to individuals who may not have had
+
+14
+00:00:46,850 --> 00:00:50,670
+as much engineering or scientific background
+

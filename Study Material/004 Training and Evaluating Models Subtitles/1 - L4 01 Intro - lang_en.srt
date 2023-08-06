@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:02,759
+Hi, my name is Kiran Vajapey.
+
+2
+00:00:02,759 --> 00:00:05,804
+I'm a senior HCI developer at Figure Eight.
+
+3
+00:00:05,804 --> 00:00:09,660
+Today I'm going to talk to you about Machine Learning and Automated ML.
+
+4
+00:00:09,660 --> 00:00:13,500
+I'm very excited to talk to you about this lesson. So let's dive in.
+
+5
+00:00:13,500 --> 00:00:16,199
+In this lesson, we're going to dive deeper into
+
+6
+00:00:16,199 --> 00:00:20,265
+Machine Learning and understand the concepts behind ML models.
+
+7
+00:00:20,265 --> 00:00:24,530
+You will see how we train models to carry out complex tasks by
+
+8
+00:00:24,530 --> 00:00:29,765
+observing historical data and tuning parameters to do this with high accuracy.
+
+9
+00:00:29,765 --> 00:00:33,170
+As a product manager looking to develop AI products,
+
+10
+00:00:33,170 --> 00:00:36,454
+it is important to understand the mechanics of Machine Learning.
+
+11
+00:00:36,454 --> 00:00:41,089
+Model architecture, training data and model evaluation are all
+
+12
+00:00:41,090 --> 00:00:46,600
+key elements of ML and are instrumental in successful AI product management.
+
+13
+00:00:46,600 --> 00:00:48,865
+When using AI and products,
+
+14
+00:00:48,865 --> 00:00:51,710
+there are numerous uncertainties that can alter the course of
+
+15
+00:00:51,710 --> 00:00:54,859
+development and by understanding the core concepts,
+
+16
+00:00:54,859 --> 00:00:58,594
+we can stay ahead of the unknowns and plan development accordingly.
+
+17
+00:00:58,594 --> 00:01:02,670
+The concepts in this lesson will cover various aspects of Machine Learning,
+
+18
+00:01:02,670 --> 00:01:04,984
+some more technical than others.
+
+19
+00:01:04,984 --> 00:01:09,680
+If at any point you find yourself lost in the technical weeds, don't worry.
+
+20
+00:01:09,680 --> 00:01:12,420
+These topics are meant to give you a peek under the hood of
+
+21
+00:01:12,420 --> 00:01:15,200
+ML and get familiar with some of the components.
+
+22
+00:01:15,200 --> 00:01:17,240
+When building AI products,
+
+23
+00:01:17,239 --> 00:01:20,388
+you are very likely to interact with experts in the field,
+
+24
+00:01:20,388 --> 00:01:22,670
+and knowing some of the lingo will allow you to
+
+25
+00:01:22,670 --> 00:01:25,204
+be more effective when managing these products.
+
+26
+00:01:25,204 --> 00:01:27,629
+So let's get started.
+

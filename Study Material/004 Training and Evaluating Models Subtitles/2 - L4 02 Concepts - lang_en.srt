@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:02,625
+Here are the concepts we'll cover in this lesson.
+
+2
+00:00:02,625 --> 00:00:05,549
+We will start with a look at the actual models used in
+
+3
+00:00:05,549 --> 00:00:10,349
+machine learning and understand the components that make up this technology.
+
+4
+00:00:10,349 --> 00:00:15,419
+Next, we will talk about the training data which someone called the currency of ML.
+
+5
+00:00:15,419 --> 00:00:19,410
+Training data serves as the examples from which the machine will learn.
+
+6
+00:00:19,410 --> 00:00:22,125
+Subsequently, after training any model,
+
+7
+00:00:22,125 --> 00:00:24,509
+we need to understand the model's performance,
+
+8
+00:00:24,510 --> 00:00:28,859
+and we'll follow with the discussion of model evaluation and what key metrics we
+
+9
+00:00:28,859 --> 00:00:33,600
+want to measure to understand how our model is likely to perform in production.
+
+10
+00:00:33,600 --> 00:00:36,740
+Finally, we will talk about transfer learning.
+
+11
+00:00:36,740 --> 00:00:40,070
+A core concept in modern-day machine learning that allows
+
+12
+00:00:40,070 --> 00:00:44,329
+us to bootstrap models and achieve robust performance relatively quickly,
+
+13
+00:00:44,329 --> 00:00:48,409
+as well as automated ML which has made machine learning more accessible to
+
+14
+00:00:48,409 --> 00:00:54,149
+individuals looking to develop performance AI without requiring a PhD in data science.
+
+15
+00:00:54,149 --> 00:00:57,820
+But that said, let's dive into the first section.
+

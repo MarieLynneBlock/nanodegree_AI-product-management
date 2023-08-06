@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:02,504
+Coming to automated machine learning.
+
+2
+00:00:02,504 --> 00:00:06,074
+This is where Cloud service providers such as Google Cloud and
+
+3
+00:00:06,075 --> 00:00:09,990
+IBM Watson offer ML model creation services.
+
+4
+00:00:09,990 --> 00:00:13,589
+The way these services work are that you bring your labeled data to
+
+5
+00:00:13,589 --> 00:00:18,644
+the platform and they will automatically train and tune the model to fit your case.
+
+6
+00:00:18,644 --> 00:00:21,300
+This allows you to easily build and test
+
+7
+00:00:21,300 --> 00:00:25,230
+an ML model with little additional work to actually serve the model.
+
+8
+00:00:25,230 --> 00:00:29,984
+One major benefit along with this platform will come enterprise support.
+
+9
+00:00:29,984 --> 00:00:35,564
+This combination offers an overall solution with significantly less complexity.
+
+10
+00:00:35,564 --> 00:00:39,109
+An added benefit of using these services is that
+
+11
+00:00:39,109 --> 00:00:42,964
+many of them will conduct neural architecture search on the back-end.
+
+12
+00:00:42,965 --> 00:00:46,670
+This will automatically select the optimal architecture for
+
+13
+00:00:46,670 --> 00:00:51,890
+your model by fitting various components together and assessing their accuracy.
+
+14
+00:00:51,890 --> 00:00:55,670
+All of this will be handled by the service provider and is often
+
+15
+00:00:55,670 --> 00:01:00,030
+how they're able to effectively scale their ML solutions.
+

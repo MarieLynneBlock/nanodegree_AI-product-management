@@ -1,0 +1,536 @@
+1
+00:00:00,000 --> 00:00:05,160
+In this section, we will discuss specific methods to measure model performance.
+
+2
+00:00:05,160 --> 00:00:08,640
+Having clear performance metrics will allow us to understand where
+
+3
+00:00:08,640 --> 00:00:12,345
+the model is performing well, and where we need to pay more attention.
+
+4
+00:00:12,345 --> 00:00:16,350
+I want to give a disclaimer that we'll be doing some math in this section,
+
+5
+00:00:16,350 --> 00:00:18,405
+but don't worry if that's not your strong suit.
+
+6
+00:00:18,405 --> 00:00:22,260
+We will be stepping through examples to make it as clear as possible.
+
+7
+00:00:22,260 --> 00:00:24,510
+When measuring model performance,
+
+8
+00:00:24,510 --> 00:00:28,725
+we want to have sensible metrics that indicate how well the model is performing.
+
+9
+00:00:28,725 --> 00:00:31,920
+This should encompass the model's ability to predict each of
+
+10
+00:00:31,920 --> 00:00:37,109
+the train classes and give us insight into any biases that may exist on the model.
+
+11
+00:00:37,109 --> 00:00:39,259
+By having these clear metrics,
+
+12
+00:00:39,259 --> 00:00:43,879
+we can get a good idea of how the model will perform when deployed into production,
+
+13
+00:00:43,880 --> 00:00:48,650
+which will ultimately guide the performance of the product and its impact in the market.
+
+14
+00:00:48,649 --> 00:00:51,350
+In order to measure a model's performance,
+
+15
+00:00:51,350 --> 00:00:55,024
+we use data similar to how we use data to train the model.
+
+16
+00:00:55,024 --> 00:00:57,695
+From the total set of labeled data,
+
+17
+00:00:57,695 --> 00:01:00,850
+we generally use 80 percent for training data,
+
+18
+00:01:00,850 --> 00:01:02,634
+the other 20 percent,
+
+19
+00:01:02,634 --> 00:01:04,114
+for testing the model.
+
+20
+00:01:04,114 --> 00:01:06,979
+It is important to note that the training data
+
+21
+00:01:06,980 --> 00:01:10,040
+and test data should both be as balanced as possible.
+
+22
+00:01:10,040 --> 00:01:13,100
+Similar to the issues we saw in training the model,
+
+23
+00:01:13,099 --> 00:01:15,530
+having unbalanced data in the test data may
+
+24
+00:01:15,530 --> 00:01:18,305
+skew our perspective of the model's performance.
+
+25
+00:01:18,305 --> 00:01:23,030
+For example, if the test set is made up of a majority of a single class,
+
+26
+00:01:23,030 --> 00:01:26,420
+then we will not have a robust enough test cases to determine
+
+27
+00:01:26,420 --> 00:01:30,305
+whether the model is performing adequately across all classes.
+
+28
+00:01:30,305 --> 00:01:32,360
+In addition to test data,
+
+29
+00:01:32,359 --> 00:01:35,750
+validation data is sometimes added as another split.
+
+30
+00:01:35,750 --> 00:01:39,245
+The validation data is used during training to help inform
+
+31
+00:01:39,245 --> 00:01:42,920
+updates to model parameters and is different from the test data
+
+32
+00:01:42,920 --> 00:01:46,579
+because the test data is never seen by the model until after
+
+33
+00:01:46,579 --> 00:01:51,500
+the training is complete to simulate a new set of data that the model has never seen.
+
+34
+00:01:51,500 --> 00:01:54,769
+This way, we can evaluate how the model would perform on data
+
+35
+00:01:54,769 --> 00:01:58,204
+that is completely different than the data used while training.
+
+36
+00:01:58,204 --> 00:02:02,989
+The way we evaluate these models is to start with our labeled test data.
+
+37
+00:02:02,989 --> 00:02:08,794
+We feed this data through the network which produces each of the labeled data points.
+
+38
+00:02:08,794 --> 00:02:12,500
+By comparing the predicted labels and the actual labels,
+
+39
+00:02:12,500 --> 00:02:15,110
+we start to get an idea of where the model's performing
+
+40
+00:02:15,110 --> 00:02:18,295
+well and where the model needs improvement.
+
+41
+00:02:18,294 --> 00:02:20,539
+We need a measure of performance.
+
+42
+00:02:20,539 --> 00:02:23,929
+We could count the number of correct and incorrect predictions.
+
+43
+00:02:23,930 --> 00:02:26,615
+However, we want to understand the performance of
+
+44
+00:02:26,615 --> 00:02:31,640
+each class which requires more than a simple count of incorrect verse correct.
+
+45
+00:02:31,639 --> 00:02:36,979
+Two common measures we use when evaluating a model are precision and recall.
+
+46
+00:02:36,979 --> 00:02:40,264
+Both of these will measure the model such that we can
+
+47
+00:02:40,264 --> 00:02:43,879
+understand how the model performs for an individual class,
+
+48
+00:02:43,879 --> 00:02:46,775
+as well as how it performs across classes.
+
+49
+00:02:46,775 --> 00:02:48,770
+Looking at this graphic on the right,
+
+50
+00:02:48,770 --> 00:02:51,755
+we see the model's predictions inside the circle.
+
+51
+00:02:51,754 --> 00:02:56,120
+The left half of the graphic represents the ground truth in the data,
+
+52
+00:02:56,120 --> 00:03:00,770
+and the right half of the graphic represents negative or non-existent data.
+
+53
+00:03:00,770 --> 00:03:02,450
+To give an example,
+
+54
+00:03:02,449 --> 00:03:07,089
+if we had three images of cats and only two of them were identified as cats,
+
+55
+00:03:07,090 --> 00:03:11,539
+we would see the two correctly predicted cats on the left half of
+
+56
+00:03:11,539 --> 00:03:16,459
+the inner circle and the missing cat on the left half of the outer square,
+
+57
+00:03:16,460 --> 00:03:19,700
+representing a false negative prediction.
+
+58
+00:03:19,699 --> 00:03:24,049
+Conversely, if we misclassified a dog as a cat,
+
+59
+00:03:24,050 --> 00:03:28,814
+that would fall on the right half of the inner circle as a false positive.
+
+60
+00:03:28,814 --> 00:03:34,009
+Modeled precision answers the question of when the model makes a prediction,
+
+61
+00:03:34,009 --> 00:03:36,814
+how likely is that prediction to be correct?
+
+62
+00:03:36,814 --> 00:03:39,319
+In order to calculate the precision,
+
+63
+00:03:39,319 --> 00:03:43,699
+we will take the number of true positives aka the number
+
+64
+00:03:43,699 --> 00:03:48,319
+of correct predictions and divide it by the total number of predictions.
+
+65
+00:03:48,319 --> 00:03:53,209
+This will tell us what percent of all the predictions were correct.
+
+66
+00:03:53,210 --> 00:03:57,485
+We start with predicted labels for each of the data classes.
+
+67
+00:03:57,485 --> 00:04:01,205
+We will first calculate the precision for each class.
+
+68
+00:04:01,205 --> 00:04:03,560
+For cats, we take the number of
+
+69
+00:04:03,560 --> 00:04:08,930
+correctly predicted cats and divide that by the total number of cat predictions.
+
+70
+00:04:08,930 --> 00:04:14,795
+In this case, we have one correctly predicted cat and two cat predictions,
+
+71
+00:04:14,794 --> 00:04:16,219
+one for the actual cat,
+
+72
+00:04:16,220 --> 00:04:18,590
+and one for the misclassified gerbil.
+
+73
+00:04:18,589 --> 00:04:22,219
+This gives us a precision of 0.5.
+
+74
+00:04:22,220 --> 00:04:27,640
+Similarly, we do the same calculation for dog and gerbil classes.
+
+75
+00:04:27,639 --> 00:04:32,104
+In the case of gerbils where zero gerbil predictions were made,
+
+76
+00:04:32,105 --> 00:04:35,004
+we simply assign a zero position.
+
+77
+00:04:35,004 --> 00:04:37,339
+This is another reason why we want
+
+78
+00:04:37,339 --> 00:04:41,629
+enough test data so that we will have at least one prediction for each class.
+
+79
+00:04:41,629 --> 00:04:44,894
+Now, to find the models overall precision,
+
+80
+00:04:44,894 --> 00:04:47,269
+we take the average of all the precisions.
+
+81
+00:04:47,269 --> 00:04:52,729
+Now, we can say we have a model precision of 0.5 or 50 percent.
+
+82
+00:04:52,730 --> 00:04:55,895
+Next, we'll calculate the model recall.
+
+83
+00:04:55,894 --> 00:04:59,659
+Model recall answers the question of how good is a model
+
+84
+00:04:59,660 --> 00:05:03,410
+at identifying actual occurrences of objects in the data.
+
+85
+00:05:03,410 --> 00:05:05,870
+This will give us an understanding of whether or
+
+86
+00:05:05,870 --> 00:05:09,139
+not the model can recognize these objects.
+
+87
+00:05:09,139 --> 00:05:12,110
+We calculate the recall by taking the number of
+
+88
+00:05:12,110 --> 00:05:17,030
+correct predictions and divide that by the number of actual occurrences.
+
+89
+00:05:17,029 --> 00:05:22,679
+This will tell us what percent of the real occurrences were recalled by the model.
+
+90
+00:05:23,050 --> 00:05:28,009
+Again, we start with the models predictions of each data point.
+
+91
+00:05:28,009 --> 00:05:32,735
+We go ahead and calculate the recall for each of the models classes.
+
+92
+00:05:32,735 --> 00:05:34,550
+This time, for cats,
+
+93
+00:05:34,550 --> 00:05:37,189
+we take the number of correctly predicted cats
+
+94
+00:05:37,189 --> 00:05:40,355
+and divide that by the total number of real cats.
+
+95
+00:05:40,355 --> 00:05:43,895
+In this case, there's one correctly predicted cat,
+
+96
+00:05:43,894 --> 00:05:46,459
+as well as one actual cat.
+
+97
+00:05:46,459 --> 00:05:48,875
+This gives us a recall of one.
+
+98
+00:05:48,875 --> 00:05:51,259
+We then do the same calculations for
+
+99
+00:05:51,259 --> 00:05:55,339
+all other classes and take the average of all the recall values.
+
+100
+00:05:55,339 --> 00:06:00,019
+In this case, our overall model recall is 66 percent.
+
+101
+00:06:00,019 --> 00:06:05,299
+As you can see, both the precision and recall of the gerbil class are very poor,
+
+102
+00:06:05,300 --> 00:06:08,764
+which indicates we may need to improve the model for this class.
+
+103
+00:06:08,764 --> 00:06:12,425
+Additionally, while the recall for the cat class is one,
+
+104
+00:06:12,425 --> 00:06:15,050
+we saw poor precision of 0.5,
+
+105
+00:06:15,050 --> 00:06:17,569
+which means that the model may be biased towards
+
+106
+00:06:17,569 --> 00:06:20,870
+this class causing erroneous cat predictions.
+
+107
+00:06:20,870 --> 00:06:25,120
+A third measure that is commonly used is called the F1-Score.
+
+108
+00:06:25,120 --> 00:06:28,069
+The F1-Score combines the precision and
+
+109
+00:06:28,069 --> 00:06:31,834
+recall to produce an overall performance measure of the model.
+
+110
+00:06:31,834 --> 00:06:34,879
+The F1-Score ranges from zero to one,
+
+111
+00:06:34,879 --> 00:06:37,824
+with one being perfect precision in recall.
+
+112
+00:06:37,824 --> 00:06:43,894
+Generally, an F1-Score above 0.75 or 0.8 will be considered decent.
+
+113
+00:06:43,894 --> 00:06:47,329
+However, it will depend on the intended application and how
+
+114
+00:06:47,329 --> 00:06:51,745
+critical the performance of the model is to the success of the product.
+
+115
+00:06:51,745 --> 00:06:56,995
+In our case, we saw an F1-Score of 0.57.
+
+116
+00:06:56,995 --> 00:07:00,709
+This indicates to us that the model definitely needs
+
+117
+00:07:00,709 --> 00:07:04,779
+more training cycles in order to improve the overall performance.
+
+118
+00:07:04,779 --> 00:07:09,319
+Finally, we can plot a confusion matrix to understand which are
+
+119
+00:07:09,319 --> 00:07:13,969
+our problem classes and get an insight into how we should update our model.
+
+120
+00:07:13,970 --> 00:07:16,610
+The Confusion Matrix is a grid which shows
+
+121
+00:07:16,610 --> 00:07:20,585
+all the predicted labels relative to all the true labels.
+
+122
+00:07:20,584 --> 00:07:22,339
+When looking at this chart,
+
+123
+00:07:22,339 --> 00:07:25,474
+the values across a row should add up to a 100 percent,
+
+124
+00:07:25,475 --> 00:07:28,580
+while the values in the columns have no limitations.
+
+125
+00:07:28,579 --> 00:07:31,729
+This chart shows that 100 percent of
+
+126
+00:07:31,730 --> 00:07:37,129
+the true dogs were classified 100 percent of the time in the dog category.
+
+127
+00:07:37,129 --> 00:07:40,639
+Similarly, 100 percent of the cats were
+
+128
+00:07:40,639 --> 00:07:44,995
+classified 100 percent of the time in the cat category.
+
+129
+00:07:44,995 --> 00:07:47,519
+The gerbils on the other hand,
+
+130
+00:07:47,519 --> 00:07:52,459
+reclassified 100 percent of the time in the cat category as well.
+
+131
+00:07:52,459 --> 00:07:55,549
+This shows us that the cat category is getting
+
+132
+00:07:55,550 --> 00:08:00,935
+an unbalanced number of predictions while the gerbil category is not getting enough.
+
+133
+00:08:00,935 --> 00:08:03,829
+This should give us some insight into where we can improve
+
+134
+00:08:03,829 --> 00:08:07,529
+our training data to increase the model's accuracy.
+
