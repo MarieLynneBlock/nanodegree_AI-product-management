@@ -66,13 +66,15 @@ A pneumonia image may include a few things: areas of cloudiness/opacity in sever
 
 <div align="center">
   <p>Some characteristics of a healthy image: a clear lung area.</p>
-  <img src="images/annotated-chest-xray.png" alt="healthy annotated-chest-xray example" width="500">
+  <img src="images/healthy-example.png" alt="healthy xray example" width="500">
+</div>
+
+<div align="center">
+  <p>Examples of pneumonia symptoms: (Left) a concentrated, opaque area in the lungs, (Right) multiple, smaller opaque areas throughout the lung area and any diaphragm shadow is obscured:</p>
+  <img src="images/pneumonia-examples.png" alt="pneumonia xray examples" width="500">
 </div>
 
 
-Examples of pneumonia symptoms: (Left) a concentrated, opaque area in the lungs, (Right) multiple, smaller opaque areas throughout the lung area and any diaphragm shadow is obscured.
-Note: You may download the above images for use in your annotator Instructions, if you want to.
-Designing a Data Labeling Job
 One of your biggest tasks will be to design an appropriate data labeling job using Appen's platform. You will need to submit an HTML file of a complete job Preview, which includes: 1. Instructions for annotation and 2. Example test questions. You will also need to submit a Proposal document that discusses the design of the job and steps you'll take for quality assurance.
 
 You will not need to launch the annotation job; you are only creating one to demonstrate your ability to create a dataset.
