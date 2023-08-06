@@ -104,8 +104,8 @@ The [Product Manager Nanodegree programme](https://www.udacity.com/course/produc
 The [AI Product Manager Nanodegree programme](https://www.udacity.com/course/ai-product-manager-nanodegree--nd088) is meant for product managers that are responsible for building and deploying AI products. The AI PM Nanodegree program is focused on the hands-on tasks of scoping a data set, training a model, and evaluating the performance of the model.
 
 ##### Prerequisite knowledge:
-- product management
-- data analysis
+- Product management
+- Data analysis
 - AI/ML algorithms
 
 
@@ -115,17 +115,17 @@ The [Data Product Manager Nanodegree programme](https://www.udacity.com/course/d
 ##### Prerequisite knowledge:
 - Data Analysis
 - Product Management
-- big data
-- database
-- algorithms 
+- Big data
+- Database
+- AI/ML Algorithms 
 
 
 #### ⏳ Growth Product Manager Nanodegree (in consideration)
 The [Growth Product Manager Nanodegree programme](https://www.udacity.com/course/growth-product-manager-nanodegree--nd037) is meant for experienced Product Managers who are looking to specialize their skills in product management and be equipped to fill growth-focused roles. You’ll learn how to grow the user base of your product, get customers engaged and activated as quickly as possible, and monetize your product to have it generate revenue.
 
 ##### Prerequisite knowledge:
-- experience as a Product Manager
-- experience scoping business requirements
+- Experience as a Product Manager
+- Experience scoping business requirements
 - KPIs
-- data/statistical analysis
+- Data/statistical analysis
 - Excel/Spreadsheets
