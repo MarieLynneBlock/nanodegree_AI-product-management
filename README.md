@@ -55,11 +55,9 @@ As such, this project is designed to test your ability to build a labeled datase
 </div>
 
 
-TODO -->
-
-
 A labeled, healthy, chest x-ray image. Pay close attention to the two lungs and diaphragm (below the lungs).
-What Does Pneumonia Look Like?
+
+###### What Does Pneumonia Look Like?
 This is a challenging task because it is not always clear when pneumonia symptoms are present or not in an image. As such, your system is not meant to be a replacement for a doctor, only to aid in quickly identifying healthy patients and surfacing potential cases of pneumonia.
 
 You should design a data annotation job, such that a non-expert can identify more noticeable cases of pneumonia. Since you are designing for a non-expert annotator, you should design for failure; this means including some way to capture uncertainty in your data labels and test questions.
