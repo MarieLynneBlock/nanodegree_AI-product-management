@@ -54,9 +54,6 @@ As such, this project is designed to test your ability to build a labeled datase
   <img src="images/annotated-chest-xray.png" alt="healthy annotated-chest-xray example" width="500">
 </div>
 
-
-A labeled, healthy, chest x-ray image. Pay close attention to the two lungs and diaphragm (below the lungs).
-
 ###### What Does Pneumonia Look Like?
 This is a challenging task because it is not always clear when pneumonia symptoms are present or not in an image. As such, your system is not meant to be a replacement for a doctor, only to aid in quickly identifying healthy patients and surfacing potential cases of pneumonia.
 
@@ -67,7 +64,11 @@ There are a few different visual symptoms that indicate pneumonia. The most impo
 A normal, healthy image will depict clear lungs without any areas of abnormal cloudiness/opacity; there may be structured, web-like vasculature in the lungs but otherwise that area should be clear. In healthy images, you are also more likely to see a diaphragm shadow.
 A pneumonia image may include a few things: areas of cloudiness/opacity in several concentrated areas or one large area. You may also see a general pattern of opacity that obscures the structure of the lungs, heart and diaphragm.
 
-Some characteristics of a healthy image: a clear lung area.
+<div align="center">
+  <p>Some characteristics of a healthy image: a clear lung area.</p>
+  <img src="images/annotated-chest-xray.png" alt="healthy annotated-chest-xray example" width="500">
+</div>
+
 
 Examples of pneumonia symptoms: (Left) a concentrated, opaque area in the lungs, (Right) multiple, smaller opaque areas throughout the lung area and any diaphragm shadow is obscured.
 Note: You may download the above images for use in your annotator Instructions, if you want to.
