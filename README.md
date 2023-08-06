@@ -20,6 +20,7 @@ In this part of the course, we explore how to build custom datasets, which form 
 - Dataset building
 - Data fit & annotation
 - Data cleaning
+- Job design
 - CML
 
 
