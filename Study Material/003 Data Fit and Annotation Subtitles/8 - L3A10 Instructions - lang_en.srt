@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:03,899
+So a good set of instructions will always include an overview,
+
+2
+00:00:03,899 --> 00:00:08,970
+the steps that contributors need to take to complete the job, rules, and tips.
+
+3
+00:00:08,970 --> 00:00:12,630
+In here, you should really include what contributors are looking for.
+
+4
+00:00:12,630 --> 00:00:15,975
+So in this case, we're looking for parking signs in San Francisco,
+
+5
+00:00:15,974 --> 00:00:17,714
+and then can include street cleaning,
+
+6
+00:00:17,714 --> 00:00:20,565
+accessible parking, no stopping, etc.
+
+7
+00:00:20,565 --> 00:00:22,820
+You should provide rules for each of these.
+
+8
+00:00:22,820 --> 00:00:25,789
+So if parking signs are partially observable,
+
+9
+00:00:25,789 --> 00:00:27,144
+you should answer, yes.
+
+10
+00:00:27,144 --> 00:00:31,489
+We do not want parking signs that are on garage doors, things like that.
+
+11
+00:00:31,489 --> 00:00:34,189
+You should also define what these parking signs look like.
+
+12
+00:00:34,189 --> 00:00:35,960
+So in this case,
+
+13
+00:00:35,960 --> 00:00:38,270
+text is generally not sufficient.
+
+14
+00:00:38,270 --> 00:00:43,625
+So we have a table that includes a definition as well as an example of the sign.
+
+15
+00:00:43,625 --> 00:00:46,863
+So here's our tow-away parking signs,
+
+16
+00:00:46,863 --> 00:00:49,939
+time limit parking signs, etc.
+
+17
+00:00:49,939 --> 00:00:54,644
+We also include further examples of images from the actual data set.
+
+18
+00:00:54,645 --> 00:00:59,015
+We call out where the signs are to make it clear what we're looking for.
+
+19
+00:00:59,015 --> 00:01:01,100
+So in some of these, it's pretty hard to see.
+
+20
+00:01:01,100 --> 00:01:02,719
+In this image in the top right,
+
+21
+00:01:02,719 --> 00:01:04,969
+we've got two parking signs in here.
+
+22
+00:01:04,969 --> 00:01:07,539
+So this case would be a yes.
+
+23
+00:01:07,540 --> 00:01:10,400
+We want to show where parking signs or obfuscated.
+
+24
+00:01:10,400 --> 00:01:12,410
+So this one is behind a little tree but
+
+25
+00:01:12,409 --> 00:01:14,810
+we still want to make sure that contributors catch that,
+
+26
+00:01:14,810 --> 00:01:18,635
+and we also want to include examples where there are no signs that we're looking for.
+
+27
+00:01:18,635 --> 00:01:23,615
+So in this case, there are street signs but their speed limit, some warning sign.
+
+28
+00:01:23,614 --> 00:01:25,759
+These don't include the parking signs we're looking for and
+
+29
+00:01:25,760 --> 00:01:28,310
+we want to make sure contributors are aware of that.
+
+30
+00:01:28,310 --> 00:01:32,280
+Some of these don't contain any relevant signs.
+

@@ -1,0 +1,360 @@
+1
+00:00:00,000 --> 00:00:03,720
+So now, let's take a look at the term Neural Networks,
+
+2
+00:00:03,720 --> 00:00:05,099
+and what that actually means.
+
+3
+00:00:05,099 --> 00:00:06,869
+So we're going to take an example,
+
+4
+00:00:06,870 --> 00:00:08,234
+say you need to make a decision.
+
+5
+00:00:08,234 --> 00:00:11,294
+Should I go to a work colleague's party?
+
+6
+00:00:11,294 --> 00:00:14,414
+Neural networks could be deployed to help you make that decision.
+
+7
+00:00:14,414 --> 00:00:19,244
+So a neural network makes decisions based on weighing evidence.
+
+8
+00:00:19,245 --> 00:00:21,015
+Inputs are yes-no questions.
+
+9
+00:00:21,015 --> 00:00:22,785
+Output is a yes-no question.
+
+10
+00:00:22,785 --> 00:00:26,324
+So you could have three inputs such as, am I free?
+
+11
+00:00:26,324 --> 00:00:27,824
+Will it be fun?
+
+12
+00:00:27,824 --> 00:00:29,714
+Is it near public transit?
+
+13
+00:00:29,714 --> 00:00:32,759
+The outcome of those three questions gets you to
+
+14
+00:00:32,759 --> 00:00:34,814
+a more global decision output.
+
+15
+00:00:34,814 --> 00:00:37,210
+Unfortunately, life's a little bit more complicated
+
+16
+00:00:37,210 --> 00:00:39,664
+and some things matter more than others.
+
+17
+00:00:39,664 --> 00:00:43,759
+So this is introducing the concept of weights and thresholds here.
+
+18
+00:00:43,759 --> 00:00:46,519
+So in this case, am I free?
+
+19
+00:00:46,520 --> 00:00:48,830
+If we've given that a weight of six,
+
+20
+00:00:48,829 --> 00:00:53,960
+and the threshold overall for making this decision is five or above.
+
+21
+00:00:53,960 --> 00:00:56,314
+It really only matters if you're free.
+
+22
+00:00:56,314 --> 00:00:57,679
+Because, will it be fun?
+
+23
+00:00:57,679 --> 00:00:59,219
+Has a weight of two,
+
+24
+00:00:59,219 --> 00:01:00,644
+and is it near public transit?
+
+25
+00:01:00,645 --> 00:01:02,085
+Also, has a weight of two.
+
+26
+00:01:02,085 --> 00:01:04,745
+So basically, if you're free no matter what,
+
+27
+00:01:04,745 --> 00:01:06,635
+you're going to go to the party.
+
+28
+00:01:06,635 --> 00:01:09,469
+However, if you change the threshold to be
+
+29
+00:01:09,469 --> 00:01:12,799
+seven or you change some of the weights around,
+
+30
+00:01:12,799 --> 00:01:17,689
+multiple factors would contribute into whether or not you're free,
+
+31
+00:01:17,689 --> 00:01:19,159
+it also has to be fun,
+
+32
+00:01:19,159 --> 00:01:20,974
+or near public transit.
+
+33
+00:01:20,974 --> 00:01:22,819
+What's really important here is that,
+
+34
+00:01:22,819 --> 00:01:24,349
+as a good product manager,
+
+35
+00:01:24,349 --> 00:01:26,809
+you have to make sure that your data science team
+
+36
+00:01:26,810 --> 00:01:28,055
+or your machine learning team
+
+37
+00:01:28,055 --> 00:01:32,600
+really knows all of the data that's going to be critical for making this decision.
+
+38
+00:01:32,599 --> 00:01:35,719
+Are these three factors the only factors to consider?
+
+39
+00:01:35,719 --> 00:01:38,060
+Perhaps, you also might want to consider,
+
+40
+00:01:38,060 --> 00:01:40,204
+is my ex-boyfriend going to be at the party?
+
+41
+00:01:40,204 --> 00:01:42,745
+Or is the food going to be worth it?
+
+42
+00:01:42,745 --> 00:01:45,050
+In which case, you may have a different outcome.
+
+43
+00:01:45,049 --> 00:01:48,200
+Ensuring that these teams are working collaboratively with you and
+
+44
+00:01:48,200 --> 00:01:51,320
+have an awareness of all the important decision-making factors,
+
+45
+00:01:51,319 --> 00:01:56,169
+and criteria is really important on what makes a good model.
+
+46
+00:01:56,170 --> 00:01:57,700
+Models aren't good or bad,
+
+47
+00:01:57,700 --> 00:02:02,210
+they are just reflective of the inputs and decision-making criteria
+
+48
+00:02:02,209 --> 00:02:03,184
+that you give them.
+
+49
+00:02:03,185 --> 00:02:04,950
+So we'll take that decision.
+
+50
+00:02:04,950 --> 00:02:06,525
+But if you're anything like me,
+
+51
+00:02:06,525 --> 00:02:09,110
+it's actually you may sweat the decision a lot,
+
+52
+00:02:09,110 --> 00:02:12,260
+and weigh quite a few different factors on whether or not you want to
+
+53
+00:02:12,259 --> 00:02:16,114
+attend your colleague's party and make a more complex decision.
+
+54
+00:02:16,115 --> 00:02:21,425
+So each layer makes decisions based on the decisions made in the prior layer.
+
+55
+00:02:21,425 --> 00:02:23,165
+These are called deep neural networks.
+
+56
+00:02:23,164 --> 00:02:25,429
+It's an artificial neural network with
+
+57
+00:02:25,430 --> 00:02:28,849
+multiple layers between the input and the output layers.
+
+58
+00:02:28,849 --> 00:02:31,789
+Often, there can be dozens, or hundreds,
+
+59
+00:02:31,789 --> 00:02:38,465
+even thousands of different layers between the input and the decision output.
+
+60
+00:02:38,465 --> 00:02:41,050
+So let's shift gears a little bit,
+
+61
+00:02:41,050 --> 00:02:44,600
+and take an image recognition task here.
+
+62
+00:02:44,599 --> 00:02:47,479
+One of the things that you can use a neural net for is to do
+
+63
+00:02:47,479 --> 00:02:48,769
+character recognition.
+
+64
+00:02:48,770 --> 00:02:53,325
+In this case, recognize the input of a handwritten seven.
+
+65
+00:02:53,324 --> 00:02:54,909
+Which in an image,
+
+66
+00:02:54,909 --> 00:02:57,259
+represents actually multiple pixels in
+
+67
+00:02:57,259 --> 00:03:02,914
+a grayscale and each pixel has a value between zero and 255,
+
+68
+00:03:02,914 --> 00:03:10,759
+and you need to understand the order and where those pixels are in an image.
+
+69
+00:03:10,759 --> 00:03:15,590
+So it actually has 784 different inputs here,
+
+70
+00:03:15,590 --> 00:03:19,685
+if this seven is drawn on a 28 by 28 scale.
+
+71
+00:03:19,685 --> 00:03:22,064
+As you can see, one seven,
+
+72
+00:03:22,064 --> 00:03:29,375
+784 inputs, and the inputs are each of the individual pixel values.
+
+73
+00:03:29,375 --> 00:03:32,090
+A deep neural network takes the input from each of
+
+74
+00:03:32,090 --> 00:03:35,539
+these pixels and makes a series of subsequent decisions,
+
+75
+00:03:35,539 --> 00:03:39,349
+so that the output of this neural network can recognize the number.
+
+76
+00:03:39,349 --> 00:03:43,085
+It's a seven. One output neuron for each digit.
+
+77
+00:03:43,085 --> 00:03:46,775
+The neuron with the highest value is the predicted digit.
+
+78
+00:03:46,775 --> 00:03:51,349
+It could perhaps, also have an output that it's a one,
+
+79
+00:03:51,349 --> 00:03:54,604
+because they may look similarly depending on how it's drawn.
+
+80
+00:03:54,604 --> 00:03:59,959
+But what it's going to give you is the confidence that it's most likely to be.
+
+81
+00:03:59,960 --> 00:04:02,689
+These neural networks are trained by a large amounts of
+
+82
+00:04:02,689 --> 00:04:04,715
+paired input and output values.
+
+83
+00:04:04,715 --> 00:04:06,409
+In this case, a lot of examples of
+
+84
+00:04:06,409 --> 00:04:10,224
+handwritten numbers categorized into which digit they're representing.
+
+85
+00:04:10,224 --> 00:04:12,989
+You probably use this every day in reality,
+
+86
+00:04:12,990 --> 00:04:15,360
+which is the United States mail system.
+
+87
+00:04:15,360 --> 00:04:20,810
+Which uses character recognition to route mail incredibly efficiently.
+
+88
+00:04:20,810 --> 00:04:24,305
+There's a lot more detail here around exactly how this works.
+
+89
+00:04:24,305 --> 00:04:26,569
+I recommend classes on Machine Learning 101,
+
+90
+00:04:26,569 --> 00:04:31,560
+if you're interested in further diving into the details of the mathematics.
+

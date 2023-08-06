@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:02,160
+It's one thing to build on my laptop,
+
+2
+00:00:02,160 --> 00:00:06,375
+it's a very different thing to deploy it to hundreds of thousands or millions of users.
+
+3
+00:00:06,375 --> 00:00:11,684
+In reality, cross-functional teams are critical for driving business outcomes.
+
+4
+00:00:11,685 --> 00:00:16,440
+You need a team that is made up of folks who cut across disciplines.
+
+5
+00:00:16,440 --> 00:00:19,815
+You can also have multiple teams running in parallel.
+
+6
+00:00:19,815 --> 00:00:22,910
+You'll need folks from product and design, engineers,
+
+7
+00:00:22,910 --> 00:00:26,660
+DevOps, QA, data engineering, data science.
+
+8
+00:00:26,660 --> 00:00:28,240
+From an HR perspective,
+
+9
+00:00:28,239 --> 00:00:32,100
+they may not all report into one team or a general manager.
+
+10
+00:00:32,100 --> 00:00:34,289
+They may report in functionally,
+
+11
+00:00:34,289 --> 00:00:36,839
+but in order to have a successful product launch,
+
+12
+00:00:36,840 --> 00:00:41,740
+you need folks representative of all of these different types of skill sets.
+

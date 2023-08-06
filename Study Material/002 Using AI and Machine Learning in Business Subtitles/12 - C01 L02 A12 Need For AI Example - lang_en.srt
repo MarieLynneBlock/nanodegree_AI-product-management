@@ -1,0 +1,252 @@
+1
+00:00:00,000 --> 00:00:02,700
+A question folks often ask is,
+
+2
+00:00:02,700 --> 00:00:04,860
+do you need traditional Machine Learning approach
+
+3
+00:00:04,860 --> 00:00:06,435
+or a Deep Learning approach?
+
+4
+00:00:06,434 --> 00:00:09,059
+For that, it really depends on the problem you're solving,
+
+5
+00:00:09,060 --> 00:00:11,205
+and the data available to solve that problem.
+
+6
+00:00:11,205 --> 00:00:14,460
+This is best left to the data science person on your team to make
+
+7
+00:00:14,460 --> 00:00:17,370
+this decision about what types of models or approaches
+
+8
+00:00:17,370 --> 00:00:19,185
+to use to solve that problem.
+
+9
+00:00:19,184 --> 00:00:22,199
+It's best to make sure that you as the product manager,
+
+10
+00:00:22,199 --> 00:00:25,439
+are clearly communicating what success means for the model.
+
+11
+00:00:25,440 --> 00:00:27,390
+Let's take for example,
+
+12
+00:00:27,390 --> 00:00:29,355
+a use case in manufacturing.
+
+13
+00:00:29,355 --> 00:00:32,189
+But this is one of my favorite clients that I've worked with.
+
+14
+00:00:32,189 --> 00:00:35,939
+They were actually trying to put the correct label on
+
+15
+00:00:35,939 --> 00:00:40,125
+pieces of chicken coming off a conveyor belt in a manufacturing setting.
+
+16
+00:00:40,125 --> 00:00:43,310
+The question that they were trying to answer was is this abreast
+
+17
+00:00:43,310 --> 00:00:45,320
+or a leg or a wing?
+
+18
+00:00:45,320 --> 00:00:48,590
+In this situation, you may not need very much data because
+
+19
+00:00:48,590 --> 00:00:49,910
+there's a fixed camera.
+
+20
+00:00:49,909 --> 00:00:51,979
+There's only three different categories that you're trying
+
+21
+00:00:51,979 --> 00:00:53,750
+to classify the chicken into,
+
+22
+00:00:53,750 --> 00:00:57,429
+and the training data is very representative of the real world scenario.
+
+23
+00:00:57,429 --> 00:01:00,350
+Say, you may only need maybe 5,000 images to get
+
+24
+00:01:00,350 --> 00:01:03,505
+a relatively solid confidence level, and accuracy.
+
+25
+00:01:03,505 --> 00:01:05,980
+Alternatively, if you had a different problem,
+
+26
+00:01:05,980 --> 00:01:09,500
+if you wanted to classify every single item in a grocery store,
+
+27
+00:01:09,500 --> 00:01:14,165
+visually say take the Amazon go stores that the super different problem.
+
+28
+00:01:14,165 --> 00:01:18,719
+Say there's a 100,000 different products in the stores with different orientations,
+
+29
+00:01:18,719 --> 00:01:22,109
+different lighting conditions, perhaps different languages even.
+
+30
+00:01:22,109 --> 00:01:26,030
+You'll need millions of examples of imagery to successfully
+
+31
+00:01:26,030 --> 00:01:28,320
+achieve a business outcome.
+
+32
+00:01:28,329 --> 00:01:32,420
+Deep Learning requires perhaps thousands or millions
+
+33
+00:01:32,420 --> 00:01:35,060
+of rows to achieve acceptable performance,
+
+34
+00:01:35,060 --> 00:01:38,135
+and millions to meet or exceed human performance.
+
+35
+00:01:38,135 --> 00:01:41,390
+You can also short-circuit this often by starting
+
+36
+00:01:41,390 --> 00:01:42,799
+with the base model that's trained,
+
+37
+00:01:42,799 --> 00:01:45,649
+and just customize it for your specific needs.
+
+38
+00:01:45,650 --> 00:01:47,940
+Many platforms offer this such as Google,
+
+39
+00:01:47,939 --> 00:01:50,209
+Auto ML, or IBM Watson,
+
+40
+00:01:50,209 --> 00:01:52,859
+or Amazon sage maker.
+
+41
+00:01:54,530 --> 00:01:57,295
+Going back to the theme of learning,
+
+42
+00:01:57,295 --> 00:01:59,840
+production systems actually learn.
+
+43
+00:01:59,840 --> 00:02:03,469
+You need to think about your data pipeline once you deploy to production,
+
+44
+00:02:03,469 --> 00:02:05,969
+and make sure that you're getting this step right.
+
+45
+00:02:05,969 --> 00:02:09,109
+If you train your chicken classification model with
+
+46
+00:02:09,110 --> 00:02:12,500
+the wrong data or perhaps you were misinformed by the factory,
+
+47
+00:02:12,500 --> 00:02:14,460
+and addition to wings breasts, and legs,
+
+48
+00:02:14,460 --> 00:02:17,540
+there's also a fourth category of chicken thighs.
+
+49
+00:02:17,539 --> 00:02:21,530
+How is your system going to learn over time about data it hasn't seen before,
+
+50
+00:02:21,530 --> 00:02:23,289
+or it has low confidence in.
+
+51
+00:02:23,289 --> 00:02:26,299
+Setting up a data pipeline for training not just once but
+
+52
+00:02:26,300 --> 00:02:30,020
+continuously is super critical for the product long-term success.
+
+53
+00:02:30,020 --> 00:02:31,430
+In this case here,
+
+54
+00:02:31,430 --> 00:02:34,790
+the model will look at this chicken that it hasn't seen before chicken thighs,
+
+55
+00:02:34,789 --> 00:02:36,699
+and it's going to be not confident.
+
+56
+00:02:36,699 --> 00:02:41,419
+It's a best practice to incorporate real humans into
+
+57
+00:02:41,419 --> 00:02:45,859
+this training pipeline so that he can set the non-confident data to a human,
+
+58
+00:02:45,860 --> 00:02:49,370
+and the human can look at and be like oh that's a chicken thigh,
+
+59
+00:02:49,370 --> 00:02:52,055
+and then feed that information back to your model.
+
+60
+00:02:52,055 --> 00:02:55,569
+Typically this is where versioning comes in or continuous learning,
+
+61
+00:02:55,569 --> 00:03:00,379
+and your model can be updated or improved based on new information,
+
+62
+00:03:00,379 --> 00:03:02,389
+and the next time it sees chicken bites,
+
+63
+00:03:02,389 --> 00:03:05,579
+it's going to have a higher confidence level than before.
+

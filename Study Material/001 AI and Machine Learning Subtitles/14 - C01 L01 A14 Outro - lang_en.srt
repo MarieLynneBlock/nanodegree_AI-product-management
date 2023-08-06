@@ -1,0 +1,32 @@
+1
+00:00:00,050 --> 00:00:02,415
+So thank you so much.
+
+2
+00:00:02,415 --> 00:00:06,915
+This has been an overview of a 30,000 foot level of what AI is.
+
+3
+00:00:06,915 --> 00:00:10,859
+Its an umbrella term that describes many different computer science techniques,
+
+4
+00:00:10,859 --> 00:00:14,250
+all of them require data in order to learn information.
+
+5
+00:00:14,250 --> 00:00:17,910
+AI has applications in every industry and is already being
+
+6
+00:00:17,910 --> 00:00:21,750
+deployed to bring down costs and drive efficiencies all over the place.
+
+7
+00:00:21,750 --> 00:00:25,050
+The current state of AI is very narrow and its application,
+
+8
+00:00:25,050 --> 00:00:29,560
+and has a long way to go before we get into science fiction movies.
+

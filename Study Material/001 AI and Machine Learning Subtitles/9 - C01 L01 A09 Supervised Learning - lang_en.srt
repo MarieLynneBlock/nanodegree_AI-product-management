@@ -1,0 +1,124 @@
+1
+00:00:00,080 --> 00:00:06,310
+Supervised learning is what most of machine learning and production
+
+2
+00:00:06,309 --> 00:00:12,024
+today is actually using and it's mapping inputs to a particular output.
+
+3
+00:00:12,025 --> 00:00:13,300
+So in this case,
+
+4
+00:00:13,300 --> 00:00:17,550
+the input is a picture of a mountain and the output is, mountain.
+
+5
+00:00:17,550 --> 00:00:21,929
+Very close to a 100 percent of actual production machine learning,
+
+6
+00:00:21,929 --> 00:00:26,304
+business technology is actually using supervised learning.
+
+7
+00:00:26,304 --> 00:00:30,429
+So in a simple way supervised learning,
+
+8
+00:00:30,429 --> 00:00:33,765
+input image, output label.
+
+9
+00:00:33,765 --> 00:00:37,015
+Person or not person, person.
+
+10
+00:00:37,015 --> 00:00:40,734
+This is an example of classification which is categorizing
+
+11
+00:00:40,734 --> 00:00:45,554
+unstructured data into particular categories or a class.
+
+12
+00:00:45,554 --> 00:00:47,744
+You could also have multiple categories.
+
+13
+00:00:47,744 --> 00:00:49,159
+For example in this case,
+
+14
+00:00:49,159 --> 00:00:52,819
+instead of just two classes of person or not person you could
+
+15
+00:00:52,820 --> 00:00:57,155
+have three categories which is person, plant, or neither.
+
+16
+00:00:57,155 --> 00:01:00,289
+Another version of supervised learning is regression.
+
+17
+00:01:00,289 --> 00:01:02,479
+So the main difference between classification and
+
+18
+00:01:02,479 --> 00:01:05,390
+regression is that the output variable in
+
+19
+00:01:05,390 --> 00:01:07,939
+a regression is numerical or continuous
+
+20
+00:01:07,939 --> 00:01:11,390
+while classification it is categorical or discrete.
+
+21
+00:01:11,390 --> 00:01:14,989
+So in this case, you have input data which is homes
+
+22
+00:01:14,989 --> 00:01:18,609
+and some information about the house, how big it was,
+
+23
+00:01:18,609 --> 00:01:20,174
+how many bedrooms or bathrooms,
+
+24
+00:01:20,174 --> 00:01:25,259
+and the output is a label which is the price for that home and what it sold for,
+
+25
+00:01:25,260 --> 00:01:29,430
+and so you can use this to do regression.
+
+26
+00:01:29,829 --> 00:01:37,099
+Most supervised learning use cases fall into these types of use cases.
+
+27
+00:01:37,099 --> 00:01:40,759
+So machine translation, we talked about audio transcription,
+
+28
+00:01:40,760 --> 00:01:43,685
+or event detection, sentiment analysis,
+
+29
+00:01:43,685 --> 00:01:47,210
+optical character recognition, natural language processing.
+
+30
+00:01:47,209 --> 00:01:49,939
+There's all different types of supervised learning
+
+31
+00:01:49,939 --> 00:01:54,599
+that are deploying these techniques.
+

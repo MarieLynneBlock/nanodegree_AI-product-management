@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:03,660
+How model performs depends heavily on the training data you give it.
+
+2
+00:00:03,660 --> 00:00:05,700
+So say you have a business problem,
+
+3
+00:00:05,700 --> 00:00:09,120
+how can you use data to best set up a model for success?
+
+4
+00:00:09,119 --> 00:00:12,299
+One thing to think about is do you have enough data?
+
+5
+00:00:12,300 --> 00:00:16,190
+Many machine-learning algorithms need many examples of every different type of
+
+6
+00:00:16,190 --> 00:00:20,450
+data to be able to learn to distinguish between different classes and find patterns.
+
+7
+00:00:20,449 --> 00:00:23,089
+Imagine your aim is to train a machine learning model to
+
+8
+00:00:23,089 --> 00:00:25,969
+distinguish between positive and negative movie reviews.
+
+9
+00:00:25,969 --> 00:00:27,979
+You'll need a lot of review data to be able to find
+
+10
+00:00:27,980 --> 00:00:31,969
+the specific words or phrases that can help you categorize any new review.
+
+11
+00:00:31,969 --> 00:00:34,969
+Just a few data points will not provide enough information,
+
+12
+00:00:34,969 --> 00:00:38,585
+it will build some bias and inaccuracy in your resulted model.
+
+13
+00:00:38,585 --> 00:00:43,410
+More data gives a machine-learning algorithm more context and information to learn from.
+
+14
+00:00:43,409 --> 00:00:46,909
+A good data set that has many examples of the different classes of data.
+
+15
+00:00:46,909 --> 00:00:49,819
+In this case negative and positive movie reviews,
+
+16
+00:00:49,820 --> 00:00:53,909
+will help them model generalize better when faced with new user data.
+

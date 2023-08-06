@@ -1,0 +1,324 @@
+1
+00:00:00,000 --> 00:00:03,270
+So often an e-commerce Company will come and say,
+
+2
+00:00:03,270 --> 00:00:05,519
+"hey I just want to improve sight conversion and I
+
+3
+00:00:05,519 --> 00:00:07,769
+want to use Machine Learning to do that."
+
+4
+00:00:07,769 --> 00:00:11,218
+High level business executives get super excited about this,
+
+5
+00:00:11,218 --> 00:00:15,390
+but breaking it down into a narrow and specific problem is critical for success.
+
+6
+00:00:15,390 --> 00:00:19,574
+So what that often results into is improving search results.
+
+7
+00:00:19,574 --> 00:00:22,559
+Improving search results really means improving the
+
+8
+00:00:22,559 --> 00:00:26,054
+click-through on the top 10 search results returned
+
+9
+00:00:26,054 --> 00:00:29,730
+which in particular cases could be around
+
+10
+00:00:29,730 --> 00:00:33,960
+improving the percent of Hero Images which feature the actual product.
+
+11
+00:00:33,960 --> 00:00:38,210
+So Home Depot had this problem and what they found
+
+12
+00:00:38,210 --> 00:00:42,740
+was that when a search result had a product image which was shown by
+
+13
+00:00:42,740 --> 00:00:46,850
+itself against a white background that converted a lot higher than what they call
+
+14
+00:00:46,850 --> 00:00:49,160
+lifestyle images which were products that were shown in
+
+15
+00:00:49,159 --> 00:00:52,574
+the context of a room with a lot of their furniture.
+
+16
+00:00:52,575 --> 00:00:56,120
+So they had this huge image database and there
+
+17
+00:00:56,119 --> 00:00:59,119
+were no tags on image database to distinguish for
+
+18
+00:00:59,119 --> 00:01:02,390
+the software developers which image to show if there were
+
+19
+00:01:02,390 --> 00:01:07,375
+five or six images per product which ones do they show in the search results.
+
+20
+00:01:07,375 --> 00:01:11,090
+They needed to tag all of these images and delineate
+
+21
+00:01:11,090 --> 00:01:13,555
+between these two different styles.
+
+22
+00:01:13,555 --> 00:01:19,610
+So this breaks down into a pretty simple image classification problem saying,
+
+23
+00:01:19,609 --> 00:01:21,739
+"hey, what type of image is this?
+
+24
+00:01:21,739 --> 00:01:23,359
+Is this a product image or is it
+
+25
+00:01:23,359 --> 00:01:28,239
+a lifestyle image or is it something else in my data that I'm not aware of?"
+
+26
+00:01:28,239 --> 00:01:31,879
+So I went to search for new towel bar the other day and
+
+27
+00:01:31,879 --> 00:01:35,060
+I could not find a search result that did not have
+
+28
+00:01:35,060 --> 00:01:38,329
+a product hero image featuring that where
+
+29
+00:01:38,329 --> 00:01:39,709
+should have been in the search results
+
+30
+00:01:39,709 --> 00:01:45,109
+and the lifestyle images were all correctly placed in a different section.
+
+31
+00:01:45,109 --> 00:01:48,859
+I searched long and hard to see if there were any that were out of
+
+32
+00:01:48,859 --> 00:01:53,034
+place and it looks like they really nailed this using machine-learning.
+
+33
+00:01:53,034 --> 00:01:55,340
+Switching gears a little bit,
+
+34
+00:01:55,340 --> 00:01:57,469
+say you're a large retailer.
+
+35
+00:01:57,469 --> 00:02:02,030
+This is a company that works with retailers Bossanova
+
+36
+00:02:02,030 --> 00:02:03,859
+and they deploy robots that
+
+37
+00:02:03,859 --> 00:02:07,040
+go up and down the aisles and figure out what
+
+38
+00:02:07,040 --> 00:02:10,569
+is out of stock to help improve the store experience.
+
+39
+00:02:10,569 --> 00:02:14,599
+So really the business problem here that they're solving for is improving
+
+40
+00:02:14,599 --> 00:02:20,354
+the customer experience and improving repeat customer business of that store.
+
+41
+00:02:20,354 --> 00:02:23,539
+So to improve that store experience it's really about
+
+42
+00:02:23,539 --> 00:02:26,509
+making sure the percent of shelves are fully stocked.
+
+43
+00:02:26,509 --> 00:02:27,530
+If you've ever gone into
+
+44
+00:02:27,530 --> 00:02:30,620
+a grocery store and things are out of stock, it's super annoying.
+
+45
+00:02:30,620 --> 00:02:32,615
+I don't want to go to another grocery store.
+
+46
+00:02:32,615 --> 00:02:36,110
+That means you need to understand which products specifically are
+
+47
+00:02:36,110 --> 00:02:40,430
+understaffed and delineate from a computer vision perspective between
+
+48
+00:02:40,430 --> 00:02:44,165
+what a stock shelf look like and what an empty shelf look like and
+
+49
+00:02:44,164 --> 00:02:48,139
+also an OCR task around identifying exactly what product is
+
+50
+00:02:48,139 --> 00:02:49,849
+missing from that shelf.
+
+51
+00:02:49,849 --> 00:02:52,264
+Visually it could look like this.
+
+52
+00:02:52,264 --> 00:02:55,629
+From the point of view of the robot going up and down the store,
+
+53
+00:02:55,629 --> 00:02:57,715
+they need to identify, "hey,
+
+54
+00:02:57,715 --> 00:03:00,219
+this is a full shelf or this is an empty shell."
+
+55
+00:03:00,219 --> 00:03:03,620
+If it's empty here's what product is supposed to be there
+
+56
+00:03:03,620 --> 00:03:05,240
+and visually transcribing
+
+57
+00:03:05,240 --> 00:03:07,159
+what that is and sending that information to
+
+58
+00:03:07,159 --> 00:03:11,034
+the store associates to go restock that shelf.
+
+59
+00:03:11,034 --> 00:03:15,020
+Alternatively, I've seen a lot of Machine Learning Projects stumble or
+
+60
+00:03:15,020 --> 00:03:16,880
+fail or not go anywhere interesting
+
+61
+00:03:16,879 --> 00:03:19,115
+because they aren't clear enough on the business problem.
+
+62
+00:03:19,115 --> 00:03:23,689
+Take for example, a fashion retailer who started with the data
+
+63
+00:03:23,689 --> 00:03:25,069
+they had which was lots of
+
+64
+00:03:25,069 --> 00:03:28,159
+imagery from fashion over the last 15 years and they wanted to
+
+65
+00:03:28,159 --> 00:03:31,629
+classify at all to understand what was in that whole image set.
+
+66
+00:03:31,629 --> 00:03:34,669
+However, simply classifying all the different fashion types
+
+67
+00:03:34,669 --> 00:03:37,699
+didn't really lead them to any valuable business outcome.
+
+68
+00:03:37,699 --> 00:03:43,399
+Besides a very loosely tag data-set of shirts and pants and purses.
+
+69
+00:03:43,400 --> 00:03:45,260
+It wasn't particularly meaningful.
+
+70
+00:03:45,259 --> 00:03:50,120
+Of course it's all fashion catalog because that's all the data that they have.
+
+71
+00:03:50,120 --> 00:03:53,605
+None of the business leader has got any value from this project.
+
+72
+00:03:53,604 --> 00:03:56,989
+In summary here, you want to make sure that you are deploying for
+
+73
+00:03:56,990 --> 00:04:00,439
+a very targeted narrow and specific use case
+
+74
+00:04:00,439 --> 00:04:03,319
+that is measurable with business outcomes.
+
+75
+00:04:03,319 --> 00:04:06,424
+You want to put the business problem before the data.
+
+76
+00:04:06,425 --> 00:04:09,770
+It's almost always better to start with a business case and
+
+77
+00:04:09,770 --> 00:04:13,790
+evaluate options for how to achieve success in that special case,
+
+78
+00:04:13,789 --> 00:04:16,959
+sometimes it's a Machine Learning problem, sometimes it's not.
+
+79
+00:04:16,959 --> 00:04:19,294
+Success depends on the data.
+
+80
+00:04:19,295 --> 00:04:22,879
+Our AI systems are only as good as the data that we put into them.
+
+81
+00:04:22,879 --> 00:04:27,180
+If your data is bad, your Machine Learning tools are useless.
+

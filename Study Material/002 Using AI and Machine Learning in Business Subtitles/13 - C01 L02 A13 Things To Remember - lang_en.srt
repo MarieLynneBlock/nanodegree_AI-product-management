@@ -1,0 +1,216 @@
+1
+00:00:00,000 --> 00:00:01,274
+So things to remember.
+
+2
+00:00:01,274 --> 00:00:03,209
+Start with the business value,
+
+3
+00:00:03,209 --> 00:00:06,450
+break it down into small and specific component of the process
+
+4
+00:00:06,450 --> 00:00:07,724
+that you want to improve.
+
+5
+00:00:07,724 --> 00:00:09,299
+Get real with the data,
+
+6
+00:00:09,300 --> 00:00:11,775
+use production data, not academic data,
+
+7
+00:00:11,775 --> 00:00:14,699
+not data that you found under the covers,
+
+8
+00:00:14,699 --> 00:00:16,634
+or under your bed, or under the mattress.
+
+9
+00:00:16,635 --> 00:00:18,960
+You want to use production data to ensure that
+
+10
+00:00:18,960 --> 00:00:23,010
+the training data matches the reality of the real world deployment.
+
+11
+00:00:23,010 --> 00:00:25,110
+Learning is key to value.
+
+12
+00:00:25,109 --> 00:00:29,879
+Learning from new data ensures consistent improvement over time.
+
+13
+00:00:29,879 --> 00:00:34,064
+Let's take another example of a good candidate for machine learning.
+
+14
+00:00:34,064 --> 00:00:36,375
+Take a customer support use case.
+
+15
+00:00:36,375 --> 00:00:39,560
+Costs on average about four dollars per chat conversation and
+
+16
+00:00:39,560 --> 00:00:40,640
+about nine dollars for
+
+17
+00:00:40,640 --> 00:00:43,929
+phone conversation when you're engaging with the customer support team.
+
+18
+00:00:43,929 --> 00:00:45,950
+Often, in tier one support,
+
+19
+00:00:45,950 --> 00:00:47,630
+there's a lot of repetitive content.
+
+20
+00:00:47,630 --> 00:00:50,150
+It's frustrating for the customer service department,
+
+21
+00:00:50,149 --> 00:00:53,164
+to deal with the same conversations over and over and over again,
+
+22
+00:00:53,164 --> 00:00:55,774
+and it's difficult to scale up or down to
+
+23
+00:00:55,774 --> 00:00:59,060
+predict how much volume will come in over a given time frame.
+
+24
+00:00:59,060 --> 00:01:02,000
+It can also be a huge cost center for the business.
+
+25
+00:01:02,000 --> 00:01:06,519
+But, look at ways to add machine learning technology to improve this.
+
+26
+00:01:06,519 --> 00:01:09,019
+Let's take for example Autodesk,
+
+27
+00:01:09,019 --> 00:01:11,375
+which makes architecture and other business software.
+
+28
+00:01:11,375 --> 00:01:13,325
+They had exactly this problem.
+
+29
+00:01:13,325 --> 00:01:16,189
+What they did, was turn to natural language processing
+
+30
+00:01:16,189 --> 00:01:18,129
+to automate as much as possible.
+
+31
+00:01:18,129 --> 00:01:19,634
+They started small.
+
+32
+00:01:19,635 --> 00:01:21,530
+They started with a narrow business problem,
+
+33
+00:01:21,530 --> 00:01:24,200
+which was just password reset which represented
+
+34
+00:01:24,200 --> 00:01:26,269
+a meaningful percentage of inquiries that they
+
+35
+00:01:26,269 --> 00:01:28,144
+got in their customer support center,
+
+36
+00:01:28,144 --> 00:01:31,039
+and they taught a chatbot to recognize,
+
+37
+00:01:31,040 --> 00:01:34,025
+when the user's question was about a password reset,
+
+38
+00:01:34,025 --> 00:01:37,340
+and they got the chatbot to help the customer automatically,
+
+39
+00:01:37,340 --> 00:01:40,609
+without involving a customer support representative.
+
+40
+00:01:40,609 --> 00:01:43,670
+When the natural language processing system recognized
+
+41
+00:01:43,670 --> 00:01:46,530
+that the customer inquiry was not about password reset,
+
+42
+00:01:46,530 --> 00:01:50,245
+the chat was routed to a live support system for resolution.
+
+43
+00:01:50,245 --> 00:01:52,240
+Rinse and repeat over time,
+
+44
+00:01:52,239 --> 00:01:54,424
+they were able to add additional use cases,
+
+45
+00:01:54,424 --> 00:01:58,609
+up to about 60 different types of use cases and ended up supporting a
+
+46
+00:01:58,609 --> 00:02:03,484
+100,000 increase a day automatically using natural language processing.
+
+47
+00:02:03,484 --> 00:02:05,150
+Excuse me, a month.
+
+48
+00:02:05,150 --> 00:02:07,550
+The business outcome here was that on average,
+
+49
+00:02:07,549 --> 00:02:14,770
+they cut the resolution time from before about a day and a half, to 5.4 minutes.
+
+50
+00:02:14,770 --> 00:02:18,520
+That's a lot happier customers.
+
+51
+00:02:18,979 --> 00:02:22,324
+As you can see here, it's often a mix.
+
+52
+00:02:22,324 --> 00:02:28,604
+There is no magic solution here when deploying machine learning technology.
+
+53
+00:02:28,604 --> 00:02:31,914
+It's a mix of keeping humans in the loop, in reality,
+
+54
+00:02:31,914 --> 00:02:36,239
+and gradually expanding the use case overtime.
+

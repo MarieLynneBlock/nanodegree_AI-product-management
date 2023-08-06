@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:02,745
+It's important to start with the problem not the data.
+
+2
+00:00:02,745 --> 00:00:05,280
+You can imagine it's like trying to pack for a trip
+
+3
+00:00:05,280 --> 00:00:07,115
+but you don't know the destination.
+
+4
+00:00:07,115 --> 00:00:11,134
+You'd pack very differently if you were going to Hawaii versus skiing in Aspen.
+
+5
+00:00:11,134 --> 00:00:13,500
+Starting with the data is like trying to pack
+
+6
+00:00:13,500 --> 00:00:16,454
+your suitcase when you don't know where you're going or for how long.
+
+7
+00:00:16,454 --> 00:00:18,224
+You're likely to pack the wrong thing,
+
+8
+00:00:18,225 --> 00:00:21,585
+forget important items, over pack, under pack.
+
+9
+00:00:21,585 --> 00:00:23,950
+You certainly could buy things when you get there, sure,
+
+10
+00:00:23,949 --> 00:00:26,280
+but it'll be more expensive and you might feel a little
+
+11
+00:00:26,280 --> 00:00:29,490
+silly in Aspen with just your flip-flops at a swimsuit.
+
+12
+00:00:29,489 --> 00:00:33,810
+The most important part here is to actively learn frequently,
+
+13
+00:00:33,810 --> 00:00:35,565
+not just once, not quarterly,
+
+14
+00:00:35,564 --> 00:00:37,259
+not monthly but setting up
+
+15
+00:00:37,259 --> 00:00:41,899
+a dynamic active learning pipeline which is always benchmarking against
+
+16
+00:00:41,899 --> 00:00:44,929
+a gold standard and updating that gold standard
+
+17
+00:00:44,929 --> 00:00:49,445
+dynamically as the nature of the unstructured data changes in reality.
+
+18
+00:00:49,445 --> 00:00:53,929
+As you can see, the robot here is going to make a decision once it's deployed,
+
+19
+00:00:53,929 --> 00:00:56,509
+if it's confident, if it's met your threshold,
+
+20
+00:00:56,509 --> 00:00:57,979
+or if it's not confident.
+
+21
+00:00:57,979 --> 00:01:00,679
+Typically, you'll need to have human in
+
+22
+00:01:00,679 --> 00:01:04,459
+the loop process to learn from and give that feedback back to
+
+23
+00:01:04,459 --> 00:01:07,369
+your model so it can continuously learn and improve
+
+24
+00:01:07,370 --> 00:01:11,900
+the scope of what it's confident in to improve your business outcomes.
+

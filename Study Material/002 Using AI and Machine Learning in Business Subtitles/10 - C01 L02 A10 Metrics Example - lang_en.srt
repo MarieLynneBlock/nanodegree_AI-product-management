@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:04,019
+So another example using search is LinkedIn here.
+
+2
+00:00:04,019 --> 00:00:08,339
+So LinkedIn has used machine learning technology to classify companies,
+
+3
+00:00:08,339 --> 00:00:10,515
+improving their job recommendations.
+
+4
+00:00:10,515 --> 00:00:15,300
+They measure success here by increasing the initial in mail response rates.
+
+5
+00:00:15,300 --> 00:00:20,010
+In this case, they were able to improve them by over 45 percent.
+
+6
+00:00:20,010 --> 00:00:22,800
+Another way they measure success is the number
+
+7
+00:00:22,800 --> 00:00:25,019
+of two-way conversation started.
+
+8
+00:00:25,019 --> 00:00:27,975
+Here, they were actually able to double that.
+
+9
+00:00:27,975 --> 00:00:30,810
+So I know I get lots of job recommendations from LinkedIn,
+
+10
+00:00:30,809 --> 00:00:32,729
+and it looks like they've really improved
+
+11
+00:00:32,729 --> 00:00:36,119
+the outcomes based on implementing natural language processing,
+
+12
+00:00:36,119 --> 00:00:38,530
+and machine learning techniques.
+

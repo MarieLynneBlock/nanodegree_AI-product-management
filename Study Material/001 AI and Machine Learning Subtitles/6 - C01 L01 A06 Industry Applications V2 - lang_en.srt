@@ -1,0 +1,136 @@
+1
+00:00:00,000 --> 00:00:05,280
+So I want to shift gears a little bit and talk about industry applications of AI,
+
+2
+00:00:05,280 --> 00:00:10,635
+and what I'm seeing actual businesses and customers use this every day.
+
+3
+00:00:10,634 --> 00:00:14,955
+So Andrew Ng says that AI is the new electricity.
+
+4
+00:00:14,955 --> 00:00:17,115
+It's something I really subscribed to.
+
+5
+00:00:17,114 --> 00:00:20,219
+A hundred years ago we didn't have access to electricity,
+
+6
+00:00:20,219 --> 00:00:22,799
+and it transformed every major industry,
+
+7
+00:00:22,800 --> 00:00:25,410
+and it was impossible to really predict ahead of
+
+8
+00:00:25,410 --> 00:00:28,740
+time how that transformation what's going to happen,
+
+9
+00:00:28,739 --> 00:00:30,549
+or what the outcomes were going to be, right?
+
+10
+00:00:30,550 --> 00:00:33,780
+So in agriculture suddenly you had refrigeration techniques,
+
+11
+00:00:33,780 --> 00:00:35,100
+so you could move food around.
+
+12
+00:00:35,100 --> 00:00:37,920
+In communication, suddenly you had the telegraph,
+
+13
+00:00:37,920 --> 00:00:41,730
+so you we're no longer using mail, then the Internet.
+
+14
+00:00:41,729 --> 00:00:44,579
+Manufacturing ray, you created the electric motor,
+
+15
+00:00:44,579 --> 00:00:48,524
+it really just transformed every single industry.
+
+16
+00:00:48,524 --> 00:00:53,820
+Similarly there are applications across every industry in AI.
+
+17
+00:00:54,229 --> 00:00:59,364
+A study by PWC projects that by 2030,
+
+18
+00:00:59,365 --> 00:01:05,090
+there's going to be $15.7 trillion added to the global economy,
+
+19
+00:01:05,090 --> 00:01:06,650
+and a lot of that's going to come from
+
+20
+00:01:06,650 --> 00:01:10,920
+labor productivity improvements, and product enhancements.
+
+21
+00:01:11,469 --> 00:01:17,689
+A couple sectors that I see today having huge strides in AI,
+
+22
+00:01:17,689 --> 00:01:19,939
+very commonly is e-commerce.
+
+23
+00:01:19,939 --> 00:01:23,734
+Often this comes down to pricing and promotions,
+
+24
+00:01:23,734 --> 00:01:29,329
+customer service management such as helping to reduce the time that
+
+25
+00:01:29,329 --> 00:01:35,000
+it may take to get a response from a customer service department such as password reset,
+
+26
+00:01:35,000 --> 00:01:38,454
+or can you help me refine my serial number?
+
+27
+00:01:38,454 --> 00:01:42,019
+In consumer goods, a lot of innovation going
+
+28
+00:01:42,019 --> 00:01:46,219
+into supply chain management or demand forecasting.
+
+29
+00:01:46,219 --> 00:01:49,549
+Being able to route goods and services to
+
+30
+00:01:49,549 --> 00:01:52,879
+where customers are most likely to purchase them.
+
+31
+00:01:52,879 --> 00:01:56,524
+Even in finance around marketing and sales,
+
+32
+00:01:56,524 --> 00:02:01,739
+how do I know when perhaps someone is likely to get married or have a baby.
+
+33
+00:02:01,739 --> 00:02:04,009
+I may want to sell them different insurance,
+
+34
+00:02:04,010 --> 00:02:07,980
+or manage risks differently with that particular customer.
+

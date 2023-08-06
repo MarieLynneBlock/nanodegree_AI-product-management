@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:03,209
+So typically, when you're building an AI product,
+
+2
+00:00:03,209 --> 00:00:05,519
+you're going to create what's called a project statement.
+
+3
+00:00:05,519 --> 00:00:08,234
+As a product manager it's really cleared to
+
+4
+00:00:08,234 --> 00:00:11,709
+communicate to your stakeholders what problem are we solving.
+
+5
+00:00:11,710 --> 00:00:14,520
+In this case, we are helping marketers find
+
+6
+00:00:14,519 --> 00:00:16,109
+the right stock images for
+
+7
+00:00:16,109 --> 00:00:19,619
+marketing collateral in order to improve their conversion on sales.
+
+8
+00:00:19,620 --> 00:00:25,245
+We're trying to be really specific on where the AI is going to add value.
+
+9
+00:00:25,245 --> 00:00:29,130
+In this case, it'll tag images or it'll search for
+
+10
+00:00:29,129 --> 00:00:33,405
+images with the right qualities thus making image search a lot more efficient.
+
+11
+00:00:33,405 --> 00:00:36,359
+We also have a clear set of data that's needed,
+
+12
+00:00:36,359 --> 00:00:40,590
+stocked images tagged with aesthetic qualities that are visually
+
+13
+00:00:40,590 --> 00:00:43,010
+aligned to one another and data that
+
+14
+00:00:43,009 --> 00:00:46,780
+specifies how similar one set of images is to another.
+
+15
+00:00:46,780 --> 00:00:49,365
+From a scope perspective as well,
+
+16
+00:00:49,365 --> 00:00:53,780
+this is when the user needs to find a stock photo for marketing collateral,
+
+17
+00:00:53,780 --> 00:00:55,759
+you'll want to select the best option based on
+
+18
+00:00:55,759 --> 00:00:59,159
+all variables to improve that conversion rate.
+
+19
+00:00:59,270 --> 00:01:01,905
+How do we measure success?
+
+20
+00:01:01,905 --> 00:01:06,655
+This is when users need to find the best stock image quickly.
+
+21
+00:01:06,655 --> 00:01:10,790
+This can also probably be expanded on in our metrics section quickly,
+
+22
+00:01:10,790 --> 00:01:13,865
+could be within 30 seconds, within five minutes.
+
+23
+00:01:13,864 --> 00:01:15,679
+What metrics specifically from
+
+24
+00:01:15,680 --> 00:01:19,530
+a business outcome are you going to use to measure success?
+

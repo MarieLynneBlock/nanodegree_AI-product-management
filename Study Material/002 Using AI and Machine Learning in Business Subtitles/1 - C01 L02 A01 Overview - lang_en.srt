@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:02,430
+In this lesson, we are going to review how to actually build
+
+2
+00:00:02,430 --> 00:00:06,640
+successful products that use machine learning technology at scale.
+
+3
+00:00:07,429 --> 00:00:12,660
+Here are several examples of ways real companies are using AI today
+
+4
+00:00:12,660 --> 00:00:13,935
+to realize value.
+
+5
+00:00:13,935 --> 00:00:16,100
+In this lesson, we're going to talk about developing
+
+6
+00:00:16,100 --> 00:00:18,545
+AI application in a business setting.
+
+7
+00:00:18,545 --> 00:00:23,544
+Some common things are facial recognition, retail inventory management,
+
+8
+00:00:23,544 --> 00:00:26,760
+e-commerce search relevance, a lot of use cases
+
+9
+00:00:26,760 --> 00:00:28,580
+in customer support automation.
+
+10
+00:00:28,579 --> 00:00:31,849
+Yesterday, we talked about agricultural automation.
+
+11
+00:00:31,850 --> 00:00:36,230
+There's all types of use cases with data categorization and classification,
+
+12
+00:00:36,229 --> 00:00:39,259
+and lots of ways to manufacturer efficiency and
+
+13
+00:00:39,259 --> 00:00:42,609
+quality control which are some of my personal favorite use cases.
+
+14
+00:00:42,609 --> 00:00:45,774
+Of course, things like OCR, autonomous vehicles,
+
+15
+00:00:45,774 --> 00:00:51,390
+sentiment analysis is really popular in social media and marketing use cases.
+

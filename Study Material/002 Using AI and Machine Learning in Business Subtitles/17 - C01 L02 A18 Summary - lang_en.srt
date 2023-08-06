@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:03,270
+To summarize, make sure you start with the business problem.
+
+2
+00:00:03,270 --> 00:00:07,710
+It's important that you really understand and communicate that as the product manager.
+
+3
+00:00:07,710 --> 00:00:09,375
+It is your most important job.
+
+4
+00:00:09,375 --> 00:00:11,279
+You have to communicate that business problem to
+
+5
+00:00:11,279 --> 00:00:14,879
+stakeholders and everyone else on your team alike.
+
+6
+00:00:14,880 --> 00:00:16,890
+Make sure that you have the right data,
+
+7
+00:00:16,890 --> 00:00:18,554
+make sure your team as the right data.
+
+8
+00:00:18,554 --> 00:00:20,730
+Make sure there's nothing missing from that data,
+
+9
+00:00:20,730 --> 00:00:25,010
+and make sure that you actually roll up your sleeves and look at that data get
+
+10
+00:00:25,010 --> 00:00:29,450
+nitty-gritty into the details of it because as a product owner,
+
+11
+00:00:29,449 --> 00:00:33,019
+it's important that you really understand the nuances of your data set.
+
+12
+00:00:33,020 --> 00:00:34,360
+It's easily overlooked.
+
+13
+00:00:34,359 --> 00:00:37,984
+Make sure that you have an interdisciplinary team that you're working with.
+
+14
+00:00:37,984 --> 00:00:40,909
+That's cross-functional and representative of all the skill sets that
+
+15
+00:00:40,909 --> 00:00:44,059
+you're going to need to actually get this product into production.
+
+16
+00:00:44,060 --> 00:00:46,164
+It's not just a data science team,
+
+17
+00:00:46,164 --> 00:00:48,679
+and make sure that as a team you're working together,
+
+18
+00:00:48,679 --> 00:00:51,659
+you're learning and you're iterating fast.
+

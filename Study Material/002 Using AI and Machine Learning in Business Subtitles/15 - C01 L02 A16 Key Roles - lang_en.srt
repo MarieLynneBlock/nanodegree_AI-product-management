@@ -1,0 +1,172 @@
+1
+00:00:00,000 --> 00:00:02,714
+Now, we'll discuss a couple of key roles.
+
+2
+00:00:02,714 --> 00:00:06,179
+So obviously starting with the product owner.
+
+3
+00:00:06,179 --> 00:00:07,919
+This person owns the business case,
+
+4
+00:00:07,919 --> 00:00:10,379
+they bridge from stakeholders to the team,
+
+5
+00:00:10,380 --> 00:00:13,500
+they maximize the product value and they ensure
+
+6
+00:00:13,500 --> 00:00:17,519
+that the team builds the right product that's going to solve a business score.
+
+7
+00:00:17,519 --> 00:00:21,719
+Often overlooked, I think one of the most key positions on a team,
+
+8
+00:00:21,719 --> 00:00:24,549
+making sure that the team really focuses on the user,
+
+9
+00:00:24,550 --> 00:00:29,115
+is a designer The designer will own the Human-Computer Interaction Design.
+
+10
+00:00:29,114 --> 00:00:31,244
+Take Amazon's Alexa's use case.
+
+11
+00:00:31,245 --> 00:00:33,480
+The design here has really changed over time.
+
+12
+00:00:33,479 --> 00:00:36,619
+At first, Alexa simply didn't respond or showed
+
+13
+00:00:36,619 --> 00:00:40,009
+lights flashing when they didn't understand what I was saying.
+
+14
+00:00:40,009 --> 00:00:42,530
+It was a frustrating experience for me as a consumer.
+
+15
+00:00:42,530 --> 00:00:46,460
+Often, Alexa guessed wrong what I was trying to say
+
+16
+00:00:46,460 --> 00:00:50,435
+or she misinterpreted and let me down a path that I didn't want to go down.
+
+17
+00:00:50,435 --> 00:00:54,054
+Now, when Alexa has low confidence about what I've said,
+
+18
+00:00:54,054 --> 00:00:57,289
+sometimes Alexa will ask me as the user to clarify
+
+19
+00:00:57,289 --> 00:01:01,159
+my statement and confirm if it was interpreted correctly.
+
+20
+00:01:01,159 --> 00:01:05,914
+That's a much better experience for me as a user of the product.
+
+21
+00:01:05,915 --> 00:01:11,150
+You absolutely need software engineers to actually build the product.
+
+22
+00:01:11,150 --> 00:01:15,565
+Front-end, back-end expertise who were building this problem infrastructure,
+
+23
+00:01:15,564 --> 00:01:19,099
+they're problem-solving from a software development perspective
+
+24
+00:01:19,099 --> 00:01:21,589
+and they're generally bringing things to life.
+
+25
+00:01:21,590 --> 00:01:26,555
+A newer role is a role that has developed recently called a data engineer.
+
+26
+00:01:26,555 --> 00:01:31,685
+This person is often taking a model from a machine learning team and getting
+
+27
+00:01:31,685 --> 00:01:35,120
+the data infrastructure and pipelines setup
+
+28
+00:01:35,120 --> 00:01:38,870
+to support rapid development in iteration after launch.
+
+29
+00:01:38,870 --> 00:01:41,180
+Often the state engineers also responsible for
+
+30
+00:01:41,180 --> 00:01:44,525
+model management or AB testing or validation.
+
+31
+00:01:44,525 --> 00:01:47,810
+A data scientist will build and select a model,
+
+32
+00:01:47,810 --> 00:01:51,394
+they'll guide the team and state their research and technology,
+
+33
+00:01:51,394 --> 00:01:53,839
+they'll structure the problem to actually achieve
+
+34
+00:01:53,840 --> 00:01:58,795
+the business metrics and we'll use data to answer those business problems.
+
+35
+00:01:58,795 --> 00:02:04,280
+A Q&A team member will own the quality of the product outcome.
+
+36
+00:02:04,280 --> 00:02:08,659
+They'll speak the person who's signing off and that product is ready to release.
+
+37
+00:02:08,659 --> 00:02:12,049
+They'll do scalability testing and functional testing.
+
+38
+00:02:12,050 --> 00:02:16,430
+A DevOps team ensures the infrastructure and reliability.
+
+39
+00:02:16,430 --> 00:02:18,710
+They're managing scale and performance.
+
+40
+00:02:18,710 --> 00:02:20,990
+They're mitigating any security risks and their
+
+41
+00:02:20,990 --> 00:02:23,420
+ensuring smooth operations between
+
+42
+00:02:23,419 --> 00:02:26,179
+the machine learning team and the engineering team and
+
+43
+00:02:26,180 --> 00:02:30,120
+efficiency across the technical teams.
+

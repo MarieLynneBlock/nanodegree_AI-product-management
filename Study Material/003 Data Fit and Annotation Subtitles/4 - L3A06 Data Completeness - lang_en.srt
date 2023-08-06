@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:03,209
+Not only does your data need to match the reality of your problem,
+
+2
+00:00:03,209 --> 00:00:04,530
+it needs to be complete.
+
+3
+00:00:04,530 --> 00:00:06,060
+This means that as much as possible,
+
+4
+00:00:06,059 --> 00:00:09,570
+it needs to represent all scenarios that could come up in real-world data.
+
+5
+00:00:09,570 --> 00:00:14,100
+First, what is the problem you're trying to solve and how does it benefit your end users?
+
+6
+00:00:14,099 --> 00:00:16,664
+What data will help you solve that problem?
+
+7
+00:00:16,664 --> 00:00:20,640
+You should observe any possible relations or patterns or similarities,
+
+8
+00:00:20,640 --> 00:00:22,410
+and it could even be missing data,
+
+9
+00:00:22,410 --> 00:00:24,929
+and you should conduct proper research which means reading
+
+10
+00:00:24,929 --> 00:00:28,929
+a lot and get the best data to serve your use case.
+

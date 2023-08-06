@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:03,450
+So an example of a customer of ours,
+
+2
+00:00:03,450 --> 00:00:05,970
+that is Blue River technologies.
+
+3
+00:00:05,969 --> 00:00:10,785
+They were recently purchased by John Deere for over $300 million,
+
+4
+00:00:10,785 --> 00:00:15,353
+and they operated a technology that was put on tractors
+
+5
+00:00:15,353 --> 00:00:16,859
+to help distinguish between,
+
+6
+00:00:16,859 --> 00:00:19,589
+what is a weed and what is a plant.
+
+7
+00:00:19,589 --> 00:00:25,425
+So what they were doing is using computer vision to identify, "Hey,
+
+8
+00:00:25,425 --> 00:00:28,335
+this is a weed and it's outlined in red here,
+
+9
+00:00:28,335 --> 00:00:31,350
+and this is a plant that we're actually interested in
+
+10
+00:00:31,350 --> 00:00:34,770
+growing a crop which you can see outlined in green."
+
+11
+00:00:34,770 --> 00:00:39,320
+What that ended up resulting in from a business application perspective,
+
+12
+00:00:39,320 --> 00:00:42,950
+is that the tractor was able to only spray herbicides
+
+13
+00:00:42,950 --> 00:00:45,290
+on the weeds and not the crops.
+
+14
+00:00:45,289 --> 00:00:51,109
+Which resulted in a 90 percent reduction in actual herbicide use,
+
+15
+00:00:51,109 --> 00:00:53,630
+and a lot less going into the water table.
+
+16
+00:00:53,630 --> 00:00:55,580
+Which is not only great for the environment,
+
+17
+00:00:55,579 --> 00:00:57,799
+but also reduces costs significantly.
+
+18
+00:00:57,799 --> 00:01:02,959
+It would've been impossible for folks to hire enough people and
+
+19
+00:01:02,960 --> 00:01:05,390
+staff that's in a way where you could selectively
+
+20
+00:01:05,390 --> 00:01:08,614
+spray herbicide in such a granular and narrower way.
+
+21
+00:01:08,614 --> 00:01:09,949
+It was just untenable.
+
+22
+00:01:09,950 --> 00:01:12,094
+But using AI technology,
+
+23
+00:01:12,094 --> 00:01:15,230
+you can do this at scale which is really cool.
+

@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:02,029
+So we're taken into the data page,
+
+2
+00:00:02,029 --> 00:00:04,779
+which is where we'll upload our source data.
+
+3
+00:00:08,990 --> 00:00:12,000
+While this is uploading, you'll see a little message in
+
+4
+00:00:12,000 --> 00:00:14,490
+the bottom that tells you how many units have been uploaded.
+
+5
+00:00:14,490 --> 00:00:18,375
+We can go ahead and start designing while we wait for the data to be imported.
+
+6
+00:00:18,375 --> 00:00:21,929
+So our column mapper allows us to pretty quickly
+
+7
+00:00:21,929 --> 00:00:24,929
+map our source data to the existing job designs.
+
+8
+00:00:24,929 --> 00:00:28,719
+So our image URL is already mapped in. This is perfect.
+
+9
+00:00:28,730 --> 00:00:32,969
+We can see this job has a lot going on in this design.
+
+10
+00:00:32,969 --> 00:00:34,814
+So this is built in CML,
+
+11
+00:00:34,814 --> 00:00:37,155
+which stands for Custom Markup Language,
+
+12
+00:00:37,155 --> 00:00:39,495
+which is an HTML based language.
+
+13
+00:00:39,494 --> 00:00:41,634
+It's just specific to figure eight.
+
+14
+00:00:41,634 --> 00:00:46,070
+So CML is basically creating the elements that your contributors,
+
+15
+00:00:46,070 --> 00:00:48,350
+so the people working in your job will see.
+
+16
+00:00:48,350 --> 00:00:52,020
+So if we go down and take a look at preview,
+
+17
+00:00:52,789 --> 00:00:58,140
+we can see that our CML for radio has created a radio element.
+
+18
+00:00:58,140 --> 00:01:00,350
+Because I mapped our data into this job,
+
+19
+00:01:00,350 --> 00:01:05,460
+our new San Francisco data is showing here instead of animal images.
+
+20
+00:01:06,549 --> 00:01:13,759
+So, I'm going to go into a job that was already run using the Parking Sign Data.
+
+21
+00:01:13,760 --> 00:01:16,250
+If we go to this design page,
+
+22
+00:01:16,250 --> 00:01:18,170
+we can see the design is much simpler,
+
+23
+00:01:18,170 --> 00:01:20,585
+because we're only asking one question.
+
+24
+00:01:20,584 --> 00:01:24,329
+So we'll take a look at the preview for this.
+

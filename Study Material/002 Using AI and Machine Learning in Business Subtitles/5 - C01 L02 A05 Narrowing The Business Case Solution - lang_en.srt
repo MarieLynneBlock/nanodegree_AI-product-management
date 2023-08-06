@@ -1,0 +1,116 @@
+1
+00:00:00,000 --> 00:00:02,580
+There is no one right answer in this case.
+
+2
+00:00:02,580 --> 00:00:06,300
+However, one that would work well would be steps five through eight
+
+3
+00:00:06,299 --> 00:00:08,969
+which would be creating a visual based search
+
+4
+00:00:08,970 --> 00:00:11,970
+using machine learning computer vision technology.
+
+5
+00:00:11,970 --> 00:00:13,050
+Typically, this is called
+
+6
+00:00:13,050 --> 00:00:17,745
+a visual similarity search and it's deployed frequently on e-commerce websites.
+
+7
+00:00:17,745 --> 00:00:21,269
+The customer of Adobe could use that image that they gathered in step
+
+8
+00:00:21,269 --> 00:00:26,189
+one and simply look for visually similar images using machine learning.
+
+9
+00:00:26,190 --> 00:00:28,960
+The reason this is a good problem for machine learning is that,
+
+10
+00:00:28,960 --> 00:00:30,560
+one, you have a lot of data,
+
+11
+00:00:30,559 --> 00:00:34,170
+you have a clear sense of what the job is that needs to get done
+
+12
+00:00:34,170 --> 00:00:35,385
+and to be accomplished,
+
+13
+00:00:35,384 --> 00:00:39,799
+and you have a job previously that is tedious and impossible for humans to
+
+14
+00:00:39,799 --> 00:00:44,449
+do in a realistic time-frame which is searched through a 120 million images.
+
+15
+00:00:44,450 --> 00:00:47,000
+Another tool that can help understand
+
+16
+00:00:47,000 --> 00:00:49,549
+the business problem is identifying the AI value and
+
+17
+00:00:49,549 --> 00:00:52,009
+spending time writing down the details of
+
+18
+00:00:52,009 --> 00:00:55,009
+what actively needs to get accomplished by that user.
+
+19
+00:00:55,009 --> 00:00:58,489
+If that could be done by a human or by a machine learning and what
+
+20
+00:00:58,490 --> 00:01:02,240
+the value is of that narrow and granular or specific activity.
+
+21
+00:01:02,240 --> 00:01:03,500
+It can help you stack, rank,
+
+22
+00:01:03,500 --> 00:01:06,560
+and prioritize different opportunities for machine learning.
+
+23
+00:01:06,560 --> 00:01:11,555
+This also helps you identify what data is needed to accomplish a specific task.
+
+24
+00:01:11,555 --> 00:01:13,250
+So two examples here,
+
+25
+00:01:13,250 --> 00:01:15,950
+the activity would be identifying images with
+
+26
+00:01:15,950 --> 00:01:19,204
+the corresponding visual aesthetic qualities.
+
+27
+00:01:19,204 --> 00:01:24,185
+Another one could be identifying images with space for Ad copy.
+
+28
+00:01:24,185 --> 00:01:27,469
+Here's how human would accomplish it versus an AI
+
+29
+00:01:27,469 --> 00:01:31,679
+and then being really clear on what the value and the outcome is there.
+

@@ -1,0 +1,100 @@
+1
+00:00:00,000 --> 00:00:03,254
+Your data should also represent the problem you're trying to solve.
+
+2
+00:00:03,254 --> 00:00:05,685
+It should fit your particular use case.
+
+3
+00:00:05,684 --> 00:00:09,269
+You can't train a production model off of artificial data.
+
+4
+00:00:09,269 --> 00:00:13,814
+You need to use production data to ensure training data matches real-world scenarios.
+
+5
+00:00:13,814 --> 00:00:16,259
+You also need to determine the success criteria
+
+6
+00:00:16,260 --> 00:00:18,645
+for the model which is typically based on precision,
+
+7
+00:00:18,644 --> 00:00:20,535
+recall, and the F1 score.
+
+8
+00:00:20,535 --> 00:00:23,460
+If you determine that your model has not met these criteria,
+
+9
+00:00:23,460 --> 00:00:25,740
+you'll need to go back to the data and retrain.
+
+10
+00:00:25,739 --> 00:00:27,989
+This could entail including more edge cases,
+
+11
+00:00:27,989 --> 00:00:30,929
+more instances of classes where the model performed poorly,
+
+12
+00:00:30,929 --> 00:00:33,869
+or clearing up any ambiguity among classes.
+
+13
+00:00:33,869 --> 00:00:36,809
+A confusion matrix helps you understand the precision and
+
+14
+00:00:36,810 --> 00:00:39,870
+recall of your model by counting out the true and false positives,
+
+15
+00:00:39,869 --> 00:00:42,314
+as well as the true and false negatives.
+
+16
+00:00:42,314 --> 00:00:47,265
+Precision indicates how often the models correct when it predicts the positive label.
+
+17
+00:00:47,265 --> 00:00:51,355
+The formula is true positives over total predicted positives.
+
+18
+00:00:51,354 --> 00:00:53,034
+So in this example,
+
+19
+00:00:53,034 --> 00:01:00,474
+that would be 45 over 60 for a precision score of 75 percent.
+
+20
+00:01:00,475 --> 00:01:04,689
+Recall indicates how many of the true positives your model predicted.
+
+21
+00:01:04,689 --> 00:01:09,024
+The formula is true positives over total actual positives.
+
+22
+00:01:09,025 --> 00:01:14,844
+So here that's 45 out of 50 for a score of 90 percent for a recall.
+
+23
+00:01:14,844 --> 00:01:19,060
+The F1 score is essentially a combination of precision and recall.
+
+24
+00:01:19,060 --> 00:01:22,810
+Because there are often trade-offs and aiming for higher precision or higher recall,
+
+25
+00:01:22,810 --> 00:01:25,820
+you can aim to increase the F1 score.
+

@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:02,279
+So there's no one right answer here.
+
+2
+00:00:02,279 --> 00:00:04,830
+However, these could all be correct answers.
+
+3
+00:00:04,830 --> 00:00:09,359
+It could be time spent between searching and purchasing an image,
+
+4
+00:00:09,359 --> 00:00:12,839
+it could be number of images purchased per user,
+
+5
+00:00:12,839 --> 00:00:17,535
+it could be a net promoter score or a rating for search results,
+
+6
+00:00:17,535 --> 00:00:22,140
+or perhaps percent of stock imagery purchased overall.
+
+7
+00:00:22,140 --> 00:00:24,750
+Lots of different answers could be correct here.
+
+8
+00:00:24,750 --> 00:00:30,429
+It's just important to understand what's most meaningful to Adobe's business overall.
+

@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:01,350
+So shifting gears a little bit,
+
+2
+00:00:01,350 --> 00:00:03,750
+let's talk about how to measure success.
+
+3
+00:00:03,750 --> 00:00:07,815
+Metrics. So what makes an effective metric?
+
+4
+00:00:07,815 --> 00:00:09,660
+There's no one right answer here.
+
+5
+00:00:09,660 --> 00:00:14,115
+In my practice I like metrics that are easily measurable,
+
+6
+00:00:14,115 --> 00:00:17,160
+directly correlate to business performance,
+
+7
+00:00:17,160 --> 00:00:20,339
+are actually predictive of future business outcomes,
+
+8
+00:00:20,339 --> 00:00:24,420
+and isolated to factors that I can control or the team can control,
+
+9
+00:00:24,420 --> 00:00:27,690
+and comparable to competitive or industry benchmarks,
+
+10
+00:00:27,690 --> 00:00:31,780
+so I can get a sense of how I stack up in the broader industry.
+

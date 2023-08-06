@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:03,089
+So real continuous data also changes all the time.
+
+2
+00:00:03,089 --> 00:00:06,644
+So how can you plan for long-term success?
+
+3
+00:00:06,644 --> 00:00:09,240
+If your dataset absolutely does not change,
+
+4
+00:00:09,240 --> 00:00:11,640
+then you can use a static model which is trained once
+
+5
+00:00:11,640 --> 00:00:14,280
+and used indefinitely until an update is required.
+
+6
+00:00:14,279 --> 00:00:17,519
+But if your data is ever evolving as many are,
+
+7
+00:00:17,519 --> 00:00:20,850
+you should use a dynamic model which is continuously trained on new data,
+
+8
+00:00:20,850 --> 00:00:22,980
+so it can keep learning from new input.
+
+9
+00:00:22,980 --> 00:00:24,660
+If your data does change frequently,
+
+10
+00:00:24,660 --> 00:00:26,399
+you may need to continue making changes to
+
+11
+00:00:26,399 --> 00:00:30,089
+your annotation job to reflect more relevant definitions or examples.
+
+12
+00:00:30,089 --> 00:00:32,859
+For example, if you built a clothing classifier,
+
+13
+00:00:32,859 --> 00:00:34,979
+imagine you trained it on pants, tops,
+
+14
+00:00:34,979 --> 00:00:38,479
+and dresses, but now you've started including jumpsuits in your dataset.
+
+15
+00:00:38,479 --> 00:00:40,819
+In each train the model on this new data point to
+
+16
+00:00:40,820 --> 00:00:43,445
+avoid jumpsuits being labeled as pants or dresses.
+
+17
+00:00:43,445 --> 00:00:46,759
+Or if your model is region-based and you want to expand,
+
+18
+00:00:46,759 --> 00:00:49,609
+you'll need to train it on entirely new data altogether.
+
+19
+00:00:49,609 --> 00:00:54,783
+For example, if we wanted to expand our San Francisco parking sign dataset into London,
+
+20
+00:00:54,783 --> 00:00:57,350
+we'd need to train it all signs around London because they're
+
+21
+00:00:57,350 --> 00:01:00,750
+completely different from those seen in San Francisco.
+
