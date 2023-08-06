@@ -38,54 +38,47 @@ In the final part of the course, we learn how to improve machine learning models
 
 ## Course Projects 🏗️
 
-### 🩻 Create a Medical Image Annotation Job
+### 🩻 Project: Create a Medical Image Annotation Job
 
-Project Overview
-Your goal, as a product owner is to build a product that helps doctors quickly identify cases of pneumonia in children. You'll want to build a classification system that:
-- Can help flag serious cases
+In this project, we designed a product aimed at assisting doctors in quickly identifying cases of pneumonia in children. The goal was to develop a classification system that could:
+
+- Flag serious cases
 - Quickly identify healthy cases
-- And, generally, act as a diagnostic aid for doctors
-As such, this project is designed to test your ability to build a labeled dataset that distinguishes between healthy and pneumonia x-ray images; this can be used by ML engineers later on down the line to build a classification product. Your main task will be to create a data labeling job.
+- Act as a diagnostic aid for doctors
 
-##### The Data
-[Chest x-ray dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), with labels removed. Every piece of data is a chest x-ray image. You may see images taken that are slightly different in size and taken under slightly different exposure times. A typical, labeled image is shown below:
+We started by building a labeled dataset capable of distinguishing between healthy and pneumonia x-ray images. This dataset would later serve as a foundation for machine learning engineers to construct a classification product.
+
+We used the [Chest x-ray dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), with labels removed, and every data point is a chest x-ray image. The images vary in size and exposure times.
 
 <div align="center">
+  <p>A typical, labeled image is shown below:</p>
   <img src="images/annotated-chest-xray.png" alt="healthy annotated-chest-xray example" width="500">
 </div>
 
-###### What Does Pneumonia Look Like?
-This is a challenging task because it is not always clear when pneumonia symptoms are present or not in an image. As such, your system is not meant to be a replacement for a doctor, only to aid in quickly identifying healthy patients and surfacing potential cases of pneumonia.
+<br>
 
-You should design a data annotation job, such that a non-expert can identify more noticeable cases of pneumonia. Since you are designing for a non-expert annotator, you should design for failure; this means including some way to capture uncertainty in your data labels and test questions.
-So, what indicates pneumonia and what kind of advice and examples can we give potential annotators?
-There are a few different visual symptoms that indicate pneumonia. The most important areas to have annotators pay attention to are the lungs and the diaphragm.
+The challenge in this project lies in the fact that it is not always clear when pneumonia symptoms are present in an image. Thus, the system is not intended to replace a doctor, but rather to aid in quickly identifying healthy patients and highlighting potential cases of pneumonia.
 
-A normal, healthy image will depict clear lungs without any areas of abnormal cloudiness/opacity; there may be structured, web-like vasculature in the lungs but otherwise that area should be clear. In healthy images, you are also more likely to see a diaphragm shadow.
-A pneumonia image may include a few things: areas of cloudiness/opacity in several concentrated areas or one large area. You may also see a general pattern of opacity that obscures the structure of the lungs, heart and diaphragm.
+To address this challenge, we designed a data annotation job suitable for a non-expert to identify more noticeable cases of pneumonia. We planned for uncertainty in data labels and incorporated test questions to capture this uncertainty.
+
+Below are some visual examples demonstrating the characteristics of a healthy image and symptoms of pneumonia:
 
 <div align="center">
-  <p>Some characteristics of a healthy image: a clear lung area.</p>
+  <p>Characteristics of a healthy image: a clear lung area.</p>
   <img src="images/healthy-example.png" alt="healthy xray example" width="500">
 </div>
 
+<br>
+
 <div align="center">
   <p>Examples of pneumonia symptoms: (Left) a concentrated, opaque area in the lungs, (Right) multiple, smaller opaque areas throughout the lung area and any diaphragm shadow is obscured:</p>
-  <img src="images/pneumonia-examples.png" alt="pneumonia xray examples" width="500">
+  <img src="images/pneumonia-examples.png" alt="pneumonia xray examples" width="1000">
 </div>
 
+<br>
 
-One of your biggest tasks will be to design an appropriate data labeling job using Appen's platform. You will need to submit an HTML file of a complete job Preview, which includes: 1. Instructions for annotation and 2. Example test questions. You will also need to submit a Proposal document that discusses the design of the job and steps you'll take for quality assurance.
+Our main deliverables for this project were an HTML file of a complete job Preview, which includes instructions for annotation and example test questions, and a Proposal document discussing the job's design and quality assurance steps.
 
-You will not need to launch the annotation job; you are only creating one to demonstrate your ability to create a dataset.
+In our annotator instructions, we acknowledged the challenging nature of the classification task and provided clear examples and instructions to potential annotators. We offered an 'Unknown' or 'Other' option to account for uncertainty in an annotation and allowed annotators to indicate their confidence level in the presence of pneumonia symptoms on a numerical scale.
 
-Good Annotator Instructions (Handling Uncertainty)
-This is a very challenging classification task and so you should provide clear examples and instructions to potential annotators.
-
-You may choose to have annotators try to label an image as pneumonia or not (binary classification); if this is the case, you should include an Unknown or Other option to account for uncertainty in an annotation.
-You may also choose to have annotators describe how likely they think a case of pneumonia is in a given image, and you could measure this on a numerical scale; 0-n for their confidence that an image contains pneumonia symptoms or not. A scale like this automatically includes room for low-confidence and uncertainty.
-In your Proposal document, you will discuss your design choices and methods for quality assurance.
-It is suggested that you start with an Appen job-template, and customize it to this particular task. And you can read more about the platform, next.
-
-
-
+This project was a valuable experience in dataset creation, annotation job design, handling uncertainty, and planning for quality assurance.
