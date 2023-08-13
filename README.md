@@ -86,7 +86,7 @@ This project was a valuable experience in dataset creation, annotation job desig
 <br>
 
 <div align="center">
-  <p>feedback I received from the reviewer on this project:</p>
+  <p>feedback we received from the reviewer on this project:</p>
   <img src="project-1_annotate-medical-data-set/project-review/002_project-review_reviewer-note.png" alt="reviewers note" width="500">
 </div>
 
