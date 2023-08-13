@@ -83,9 +83,14 @@ In our annotator instructions, we acknowledged the challenging nature of the cla
 
 This project was a valuable experience in dataset creation, annotation job design, handling uncertainty, and planning for quality assurance.
 
-
 <br>
 
+<div align="center">
+  <p>feedback I received from the reviewer on this project:</p>
+  <img src="project-1_annotate-medical-data-set/project-review/002_project-review_reviewer-note.png" alt="reviewers note" width="500">
+</div>
+
+<br>
 
 ## Course Context
 
