@@ -60,6 +60,8 @@ In the final part of the course, we learn how to improve machine learning models
 - Mitigating bias (model bias / data bias / annotation bias)
 - Continuous learning
 - Data security & privacy
+- Data laws
+- Proof of concent
 - Ethics & compliance
 - Scaling
 
