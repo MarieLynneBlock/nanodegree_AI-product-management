@@ -25,6 +25,7 @@ In this part of the course, we explore how to build custom datasets, which form 
 - Result auditing
 - Planning for failure & longevity
 
+<br>
 
 ### 🧠 Building Models
 
@@ -46,6 +47,7 @@ This module introduces us to the process of training and evaluating neural netwo
 - Automated Machine learning (AutoML)
 - Cloud Solutions
 
+<br>
 
 ### 📈 Measuring Impact and Updating Models
 
