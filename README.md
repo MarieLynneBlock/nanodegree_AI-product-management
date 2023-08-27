@@ -65,6 +65,12 @@ In the final part of the course, we learn how to improve machine learning models
 - Ethics & compliance
 - Scaling
 
+
+- AI product development
+- Define business cases
+- Prototype, test & refine
+- Release management
+
 ---
 
 ## Course Projects 🏗️
