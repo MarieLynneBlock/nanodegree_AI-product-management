@@ -185,6 +185,7 @@ The [Product Manager Nanodegree programme](https://www.udacity.com/course/produc
 - Familiarity with different roles required to build a product
 - Familiarity with Google Workspace and/or Microsoft Office Applications
 
+<br>
 
 #### ✅ AI Product Manager Nanodegree
 The [AI Product Manager Nanodegree programme](https://www.udacity.com/course/ai-product-manager-nanodegree--nd088) is meant for product managers that are responsible for building and deploying AI products. The AI PM Nanodegree program is focused on the hands-on tasks of scoping a data set, training a model, and evaluating the performance of the model.
@@ -194,6 +195,7 @@ The [AI Product Manager Nanodegree programme](https://www.udacity.com/course/ai-
 - Data analysis
 - AI/ML algorithms
 
+<br>
 
 #### ✅ Data Product Manager Nanodegree
 The [Data Product Manager Nanodegree programme](https://www.udacity.com/course/data-product-manager-nanodegree--nd030) is meant for experienced Product Managers who are looking to specialize their skills in product management and be equipped to fill data-focused roles in the development and strategy behind data products. You'll learn how to build an MVP launch strategy for a new service product that utilizes market insights extracted from extensive data analyses and visualizations, develop a data model with corresponding data pipelines and transformations to evaluate user activity of a product, and identify key behavioral and descriptive attributes of users to construct hypotheses for new product features and experiments to validate these hypotheses.
@@ -205,6 +207,7 @@ The [Data Product Manager Nanodegree programme](https://www.udacity.com/course/d
 - Database
 - AI/ML Algorithms 
 
+<br>
 
 #### ⏳ Growth Product Manager Nanodegree (in consideration)
 The [Growth Product Manager Nanodegree programme](https://www.udacity.com/course/growth-product-manager-nanodegree--nd037) is meant for experienced Product Managers who are looking to specialize their skills in product management and be equipped to fill growth-focused roles. You’ll learn how to grow the user base of your product, get customers engaged and activated as quickly as possible, and monetize your product to have it generate revenue.
