@@ -53,6 +53,15 @@ This module introduces us to the process of training and evaluating neural netwo
 
 In the final part of the course, we learn how to improve machine learning models and AI products. We discuss strategies to mitigate bias and explore how to scale AI/ML products. The module also covers the importance of continuously updating models to ensure they remain effective and relevant.
 
+#### skills:
+- Measure business impact
+- Testing & versioning
+- Monitoring & mitigating bias
+- Continuous learning
+- Data security
+- Ethics & compliance
+- Scaling
+
 ---
 
 ## Course Projects 🏗️
