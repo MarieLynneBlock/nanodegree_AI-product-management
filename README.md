@@ -33,6 +33,12 @@ This module introduces us to the process of training and evaluating neural netwo
 #### skills:
 - Modeling
 - Neural networks
+- Neural architecture search
+- Activation functions
+- Back propagation
+- Multi-layer perceptrons
+- Convolutional neural networks
+- Long-short term memory (LSTM) networks
 - Training data
 - Model evaluation
 - Transfer learning
