@@ -39,8 +39,9 @@ This module introduces us to the process of training and evaluating neural netwo
 - Multi-layer perceptrons
 - Convolutional neural networks
 - Long-short term memory (LSTM) networks
-- Training data
+- Training data / validation data / test data
 - Model evaluation
+- precision / recall / F1 score
 - Transfer learning
 - Automated Machine learning
 
