@@ -30,6 +30,14 @@ In this part of the course, we explore how to build custom datasets, which form 
 
 This module introduces us to the process of training and evaluating neural networks, which are at the heart of many AI technologies. We also learn about automated machine learning tools that can simplify and accelerate the model-building process.
 
+#### skills:
+- Modeling
+- Training data
+- Model evaluation
+- Transfer learning
+- Automated Machine learning
+
+
 ### 📈 Measuring Impact and Updating Models
 
 In the final part of the course, we learn how to improve machine learning models and AI products. We discuss strategies to mitigate bias and explore how to scale AI/ML products. The module also covers the importance of continuously updating models to ensure they remain effective and relevant.
