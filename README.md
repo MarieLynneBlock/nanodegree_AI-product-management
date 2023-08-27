@@ -51,11 +51,11 @@ This module introduces us to the process of training and evaluating neural netwo
 
 In the final part of the course, we learn how to improve machine learning models and AI products. We discuss strategies to mitigate bias and explore how to scale AI/ML products. The module also covers the importance of continuously updating models to ensure they remain effective and relevant.
 
-<br>
+---
 
 ## Course Projects 🏗️
 
-### 🩻 Project: Create a Medical Image Annotation Job
+### 🩻 Create a Medical Image Annotation Job
 
 In this project, we designed a product aimed at assisting doctors in quickly identifying cases of pneumonia in children. The goal was to develop a classification system that could:
 
@@ -108,6 +108,68 @@ This project was a valuable experience in dataset creation, annotation job desig
 </div>
 
 <br>
+
+### 🩺 Develop & Train Classification Models for Pneumonia Detection
+
+In this extension of the project, we aimed to use the curated medical image dataset (supra) to build different machine learning models capable of discerning pneumonia in chest x-rays. The ultimate goals are:
+
+- To swiftly identify uncomplicated cases.
+- To serve as a reliable red-flag mechanism for serious cases.
+- To act as an adjunct to a doctor's diagnostic process.
+
+<br>
+
+#### 1. Binary Classifier for Pneumonia Detection
+
+Utilizing a balanced dataset "normal" and "pneumonia" images, we trained a basic binary classifier. Key areas of evaluation included:
+
+- **Train/test split:** Understanding the partition between training and validation sets.
+- **Confusion matrix:** Interpreting each cell in the matrix.
+- **Precision & recall:** Understanding and calculating these key metrics.
+
+<br>
+
+#### 2. Unbalanced Binary Classifier 
+
+To explore the effects of data imbalance, we trained a model on a dataset of 1/3 of "normal" than "pneumonia" images. This exercise aimed to understand:
+
+- **Confusion matrix:** Insights into the behavior of skewed data.
+- **Precision & recall:** How these metrics are affected in an unbalanced setting.
+- **Unbalanced Classes:** The impact on the machine learning model.
+
+<br>
+
+#### 3. Binary Classifier with Dirty Data
+
+In this model, we introduced data noise by mislabeling 1/10 of the images in each category. This aimed to assess:
+
+- **Confusion matrix:** How dirty data affects the matrix.
+- **Precision & recall:** Changes in these metrics due to data noise.
+- **Dirty data:** The overall impact on the machine learning model.
+
+<br> 
+
+#### 4. Tri-Class Model for Pneumonia Types
+
+For a more detailed diagnosis, we trained a model to differentiate between "normal," "bacterial pneumonia," and "viral pneumonia". Evaluation included:
+
+- **Confusion matrix:** The behavior in a multi-class setting.
+- **Precision & recall:** Calculation and evaluation of these metrics for multiple classes.
+- **More Data:** Exploration of data augmentation techniques to reach an 85% threshold for precision and recall, and assessing the volume of data needed.
+
+<br>
+
+After intensive model training, all findings, analyses, and visual representations are documented in the **AutoML Modeling Report**. We recommend referring to this report for detailed insights <here>
+<!-- TODO: link the report -->
+
+<div align="center">
+  <p>Feedback received from a modeling expert:</p>
+  <img src="project-2_modeling-feedback/model-review/002_model-review_expert-note.png" alt="expert note" width="500">
+</div>
+
+This project was an invaluable experience in not just model development but also in understanding the complexities of medical diagnostics, striving for models that are versatile and resilient across diverse scenarios.
+
+---
 
 ## Course Context
 
