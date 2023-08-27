@@ -43,7 +43,8 @@ This module introduces us to the process of training and evaluating neural netwo
 - Model evaluation
 - precision / recall / F1 score
 - Transfer learning
-- Automated Machine learning
+- Automated Machine learning (AutoML)
+- Cloud Solutions
 
 
 ### 📈 Measuring Impact and Updating Models
