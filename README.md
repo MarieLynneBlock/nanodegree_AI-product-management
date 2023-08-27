@@ -32,6 +32,7 @@ This module introduces us to the process of training and evaluating neural netwo
 
 #### skills:
 - Modeling
+- Neural Networks
 - Training data
 - Model evaluation
 - Transfer learning
