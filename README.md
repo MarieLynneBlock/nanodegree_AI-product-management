@@ -1,4 +1,4 @@
-# Nanodegree: AI Product Management 🎓
+# Nanodegree: AI Product Management
 
 This repository tracks my journey as I progress through the [Udacity Nanodegree in AI Product Management](https://www.udacity.com/course/ai-product-manager-nanodegree--nd088). 
 
