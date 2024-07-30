@@ -2,7 +2,7 @@
 
 This repository tracks my journey as I progress through the [Udacity Nanodegree in AI Product Management](https://www.udacity.com/course/ai-product-manager-nanodegree--nd088). 
 
-The course provides a comprehensive overview of how AI technologies can enhance and inform product management. It covers everything from creating datasets and building models, to measuring impact and continuously updating models.
+The course provides a comprehensive overview of how product management for AI technologies differ from other project. It covers everything from creating datasets and building models, to measuring impact and continuously updating models.
 
 <br>
 
@@ -10,7 +10,7 @@ The course provides a comprehensive overview of how AI technologies can enhance 
 
 ### 🌟 Introduction to AI in Business
 
-In this module, we delve into the fascinating world of AI and its applications in business. We learn how AI technologies can analyze and learn from data, leading to improved decision-making and more effective product management. 
+In this module, we delve into the fascinating world of AI and its applications in business. We learn how AI technologies can analyse and learn from data, leading to improved decision-making and more effective product management. 
 
 ### 📝 Creating Datasets
 
